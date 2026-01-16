@@ -5,7 +5,10 @@
   --foreground: #171717;
   --text-color-light: #f3f1f2;
   --text-color-secondary: #a9a8a5;
+  --opacity-black: rgba(0, 0, 0, 0.4);
   --primary-color: #d5421c;
+  --primary-color-dark: #b83a1a;
+  --brand-color: #d80004;
 }
 
 @theme inline {

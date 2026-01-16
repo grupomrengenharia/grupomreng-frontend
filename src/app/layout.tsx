@@ -3,6 +3,8 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import Image from 'next/image';
+import { Navbar } from '../components';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -30,9 +32,24 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative min-h-svh overflow-x-hidden`}
       >
-        {children}
+        <div className="fixed inset-0 -z-20">
+          <Image
+            src="/images/background.png"
+            alt="Background"
+            fill
+            priority
+            className="object-cover"
+          />
+        </div>
+
+        <div className="fixed inset-0 bg-black/60 -z-10" />
+
+        <div className="relative z-10">
+          <Navbar />
+          <div className="px-30">{children}</div>
+        </div>
       </body>
       <GoogleAnalytics gaId={GA_ID} />
     </html>

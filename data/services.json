@@ -1,0 +1,27 @@
+[
+  {
+    "id": "S1",
+    "title": "Projeto e execução de obras",
+    "description": "Construímos a proteção que você precisa. Nossa equipe especializada oferece soluções completas, eficientes e seguras em sistemas contra incêndio."
+  },
+  {
+    "id": "S2",
+    "title": "Instalação",
+    "description": "Desde simples equipamentos até sistemas complexos, garantimos uma instalação rápida, segura e conforme as normas vigentes."
+  },
+  {
+    "id": "S3",
+    "title": "Manutenção de Equipamentos",
+    "description": "Equipe preparada para atender a todas as demandas, garantindo a eficácia dos sistemas de combate a incêndio."
+  },
+  {
+    "id": "S4",
+    "title": "Treinamentos",
+    "description": "Capacitação contínua para sua equipe, assegurando a operação eficaz dos sistemas de proteção."
+  },
+  {
+    "id": "S5",
+    "title": "Venda de equipamentos de combate a incêndio",
+    "description": "Fornecemos uma ampla gama de equipamentos de alta qualidade para atender às suas necessidades de segurança contra incêndio."
+  }
+]
