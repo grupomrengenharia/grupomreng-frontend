@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Image from 'next/image';
-import { Navbar } from '../components';
+import { Footer, Navbar } from '../components';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -48,7 +48,13 @@ export default function RootLayout({
 
         <div className="relative z-10">
           <Navbar />
-          <div className="px-10 lg:px-20">{children}</div>
+          <div>{children}</div>
+          <Footer />
+          <div className="w-full bg-black h-20 text-center flex items-center justify-center">
+            <span>
+              Copyright © {new Date().getFullYear()}. Grupo MR Engenharia.
+            </span>
+          </div>
         </div>
       </body>
       <GoogleAnalytics gaId={GA_ID} />

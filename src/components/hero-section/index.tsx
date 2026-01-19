@@ -9,6 +9,7 @@ export function HeroSection() {
         lg:grid-cols-2
         min-h-[60svh]
         lg:mb-15
+        px-10 lg:px-20
       "
     >
       <div className="space-y-6">

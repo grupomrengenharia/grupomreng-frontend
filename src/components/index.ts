@@ -6,3 +6,7 @@ export { NavLink } from './nav-link';
 export { ServicesSection } from './services-section';
 export { ServiceCard } from './service-card';
 export { SectionTitle } from './section-title';
+export { InstagramSection } from './instagram-section';
+export { AboutSection } from './about-section';
+export { AddressSection } from './address-section';
+export { Footer } from './footer';

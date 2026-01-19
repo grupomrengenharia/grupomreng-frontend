@@ -6,6 +6,7 @@
   --text-color-light: #f3f1f2;
   --text-color-secondary: #a9a8a5;
   --opacity-black: rgba(0, 0, 0, 0.4);
+  --soft-black: #1a1a1a;
   --primary-color: #d5421c;
   --primary-color-dark: #b83a1a;
   --brand-color: #d80004;
@@ -22,4 +23,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  padding-inline: 2.5rem;
+}
+
+@media screen and (width >= 64rem /* 1024px */) {
+  section {
+    padding-inline: 5rem;
+  }
 }
