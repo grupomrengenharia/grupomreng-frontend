@@ -21,10 +21,13 @@ export function ServiceCard({ service }: Props) {
         hover:after:h-full
         "
     >
-      <div className="z-10 relative p-6 h-full text-center grid grid-rows-3">
+      <div className="z-10 relative p-6 h-full text-center grid grid-rows-4">
         {service.icon}
         <h3 className="text-xl font-bold">{service.title}</h3>
         <p className="">{service.description}</p>
+        <div className="">
+          <button>Solicitar orçamento</button>
+        </div>
       </div>
     </div>
   );

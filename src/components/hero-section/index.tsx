@@ -5,15 +5,18 @@ export function HeroSection() {
     <main
       className="
         grid
-        grid-cols-2
+        grid-cols-1
+        lg:grid-cols-2
         min-h-[60svh]
+        lg:mb-15
       "
     >
       <div className="space-y-6">
         <h1 className="text-(--brand-color) uppercase text-lg">
           Grupo M.R. Engenharia
         </h1>
-        <p className="uppercase text-5xl leading-snug">
+
+        <p className="uppercase text-5xl lg:text-3xl xl:text-5xl leading-snug">
           Sistemas contra <span className="text-(--brand-color)">incêndio</span>{' '}
           e <span className="text-(--brand-color)">pânico</span>: Projeto,
           execução e{' '}
@@ -30,9 +33,9 @@ export function HeroSection() {
           Realizamos o serviço em até 7 dias, com garantia de 5 anos.
         </p>
 
-        <div className="mt-16 flex items-center gap-4">
+        <div className="mt-16 flex items-start gap-4">
           <button className="bg-(--brand-color) cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition">
-            Solicite um orçamento gratuito agora!
+            Solicite um orçamento agora!
           </button>
           <button className="bg-white text-black cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition">
             Conheça nossos serviços
@@ -40,7 +43,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative hidden lg:block">
         <div className="absolute right-1/8">
           <Image
             src={'/images/hero-image-1.jpg'}

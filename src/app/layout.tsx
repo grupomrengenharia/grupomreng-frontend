@@ -48,7 +48,7 @@ export default function RootLayout({
 
         <div className="relative z-10">
           <Navbar />
-          <div className="px-30">{children}</div>
+          <div className="px-10 lg:px-20">{children}</div>
         </div>
       </body>
       <GoogleAnalytics gaId={GA_ID} />
