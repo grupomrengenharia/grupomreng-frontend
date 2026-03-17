@@ -3,8 +3,10 @@ import services from '@/data/services.json';
 import {
   AboutSection,
   AddressSection,
+  ContactFormSection,
   HeroSection,
   InstagramSection,
+  PartnersSection,
   ProductsSection,
   ServicesSection,
 } from '../components';
@@ -18,6 +20,8 @@ export default function Home() {
       <InstagramSection />
       <AboutSection />
       <AddressSection />
+      <ContactFormSection />
+      <PartnersSection />
     </div>
   );
 }

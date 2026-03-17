@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Colégio Unitrês Objetivo",
+    "body": "Empresa que confia na MR Engenharia para garantir a segurança de seus alunos e colaboradores.",
+    "img": "/images/partners/1.png",
+    "city": "Três Lagoas - MS"
+  },
+  {
+    "id": 2,
+    "name": "Escola Via Certa",
+    "body": "AVCB Aprovado. Parceria de sucesso com a MR Engenharia.",
+    "img": "/images/partners/2.png",
+    "city": "Três Lagoas - MS"
+  },
+  {
+    "id": 3,
+    "name": "AEMS - Faculdades Integradas",
+    "body": "Empresa que confia na MR Engenharia para garantir a segurança de seus alunos e colaboradores.",
+    "img": "/images/partners/3.png",
+    "city": "Três Lagoas - MS"
+  },
+  {
+    "id": 4,
+    "name": "Padaria Santo Pão",
+    "body": "AVCB Aprovado. Parceria de sucesso com a MR Engenharia.",
+    "img": "/images/partners/4.png",
+    "city": "Três Lagoas - MS"
+  },
+  {
+    "id": 5,
+    "name": "Studio 7 Treinamento",
+    "body": "AVCB Aprovado. Parceria de sucesso com a MR Engenharia.",
+    "img": "/images/partners/5.png",
+    "city": "Três Lagoas - MS"
+  },
+  {
+    "id": 6,
+    "name": "Instituto do Câncer Brasil",
+    "body": "AVCB Aprovado. Parceria de sucesso com a MR Engenharia.",
+    "img": "/images/partners/6.png",
+    "city": "Três Lagoas - MS"
+  },
+  {
+    "id": 7,
+    "name": "Metalfrio Solutions",
+    "body": "Cliente satisfeito com os serviços da MR Engenharia. Parceria de sucesso.",
+    "img": "/images/partners/7.png",
+    "city": "Três Lagoas - MS"
+  },
+  {
+    "id": 8,
+    "name": "Alojamentos Araguari",
+    "body": "Cliente satisfeito com os serviços da MR Engenharia. Parceria de sucesso.",
+    "img": "/images/partners/8.png",
+    "city": "Ribas do Rio Pardo - MS"
+  }
+]

@@ -7,9 +7,10 @@ interface Props {
   products: Product[];
 }
 
+const MAX_PRODUCTS = 3;
+
 export function ProductsSection({ products }: Props) {
-  const maxProductsToShow = 3;
-  const productsToShow = products.slice(0, maxProductsToShow);
+  const productsToShow = products.slice(0, MAX_PRODUCTS);
 
   return (
     <section className="space-y-2">

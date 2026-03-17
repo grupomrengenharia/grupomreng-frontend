@@ -2,26 +2,33 @@
 
 import Script from 'next/script';
 import { SectionTitle } from '../section-title';
+import { useEffect } from 'react';
 
 export function InstagramSection() {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const el = document.querySelector(
+        '#eapps-instagram-feed-1 > a',
+      ) as HTMLAnchorElement | null;
+
+      if (el) {
+        el.style = '';
+        clearInterval(interval);
+      }
+    }, 500);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <section className="space-y-3">
+    <section className="space-y-3 instagram-section">
       <SectionTitle title="Siga-nos no Instagram" />
       <div className="w-full overflow-hidden">
-        {/* Script do widget */}
-        <Script
-          src="https://cdn.lightwidget.com/widgets/lightwidget.js"
-          strategy="afterInteractive"
-        />
-
-        {/* Iframe */}
-        <iframe
-          src="http://lightwidget.com/widgets/aa40676cd6cf59d9b2025fd593a732ce.html"
-          scrolling="no"
-          className="lightwidget-widget w-full border-0 overflow-hidden"
-          style={{ width: '100%', height: '600px' }} // ajuste conforme necessário
-          title="Instagram Feed"
-        />
+        <Script src="https://elfsightcdn.com/platform.js" async></Script>
+        <div
+          className="elfsight-app-a09de708-fca6-4b3c-b7a2-58afb80f3ef2"
+          data-elfsight-app-lazy
+        ></div>
       </div>
     </section>
   );

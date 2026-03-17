@@ -1,3 +1,6 @@
+'use client';
+
+import { scrollToSection } from '@/src/utils';
 import Image from 'next/image';
 
 export function HeroSection() {
@@ -35,10 +38,17 @@ export function HeroSection() {
         </p>
 
         <div className="mt-16 flex items-start gap-4">
-          <button className="bg-(--brand-color) cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition">
+          <a
+            className="bg-(--brand-color) cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition"
+            href="https://wa.me/5567991170917?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20dos%20servi%C3%A7os%20oferecidos%20pela%20MR."
+            target="_blank"
+          >
             Solicite um orçamento agora!
-          </button>
-          <button className="bg-white text-black cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition">
+          </a>
+          <button
+            onClick={() => scrollToSection('services-section')}
+            className="bg-white text-black cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition"
+          >
             Conheça nossos serviços
           </button>
         </div>

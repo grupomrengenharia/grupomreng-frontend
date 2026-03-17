@@ -10,3 +10,5 @@ export { InstagramSection } from './instagram-section';
 export { AboutSection } from './about-section';
 export { AddressSection } from './address-section';
 export { Footer } from './footer';
+export { PartnersSection } from './partners-section';
+export { ContactFormSection } from './contact-form-section';

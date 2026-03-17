@@ -1,5 +1,11 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:is(.dark *));
+
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
@@ -10,6 +16,8 @@
   --primary-color: #d5421c;
   --primary-color-dark: #b83a1a;
   --brand-color: #d80004;
+  --success-color: #4caf50;
+  --error-color: #f44336;
 }
 
 @theme inline {
@@ -17,6 +25,24 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
 }
 
 body {
@@ -33,4 +59,8 @@ section {
   section {
     padding-inline: 5rem;
   }
+}
+
+#eapps-instagram-feed-1 > a {
+  display: none !important;
 }

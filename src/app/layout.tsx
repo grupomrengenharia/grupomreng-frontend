@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Image from 'next/image';
 import { Footer, Navbar } from '../components';
+import { Toaster } from 'sonner';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -48,11 +49,15 @@ export default function RootLayout({
 
         <div className="relative z-10">
           <Navbar />
-          <div>{children}</div>
+          <div>
+            {children}
+            <Toaster />
+          </div>
           <Footer />
           <div className="w-full bg-black h-20 text-center flex items-center justify-center">
             <span>
-              Copyright © {new Date().getFullYear()}. Grupo MR Engenharia.
+              Copyright © {new Date().getFullYear()}. Borge & Cardoso Solucoes
+              em Engenharia Ltda. CNPJ: 30.181.459/0001-08
             </span>
           </div>
         </div>
