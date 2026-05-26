@@ -1,27 +1,117 @@
 [
   {
-    "id": "S1",
+    "id": "MS1",
     "title": "Projeto e execução de obras",
     "description": "Construímos a proteção que você precisa. Nossa equipe especializada oferece soluções completas, eficientes e seguras em sistemas contra incêndio."
   },
   {
-    "id": "S2",
+    "id": "MS2",
     "title": "Instalação",
     "description": "Desde simples equipamentos até sistemas complexos, garantimos uma instalação rápida, segura e conforme as normas vigentes."
   },
   {
-    "id": "S3",
+    "id": "MS3",
     "title": "Manutenção de Equipamentos",
     "description": "Equipe preparada para atender a todas as demandas, garantindo a eficácia dos sistemas de combate a incêndio."
   },
   {
-    "id": "S4",
+    "id": "MS4",
     "title": "Treinamentos",
     "description": "Capacitação contínua para sua equipe, assegurando a operação eficaz dos sistemas de proteção."
   },
   {
-    "id": "S5",
+    "id": "MS5",
     "title": "Venda de equipamentos de combate a incêndio",
     "description": "Fornecemos uma ampla gama de equipamentos de alta qualidade para atender às suas necessidades de segurança contra incêndio."
+  },
+  {
+    "id": "S1",
+    "title": "Assessoria",
+    "description": "Consultoria especializada em segurança, prevenção e regularização de sistemas e processos relacionados à proteção contra incêndios."
+  },
+  {
+    "id": "S2",
+    "title": "Elaboração Projeto de Segurança Contra Incêndio (PSCIP)",
+    "description": "Desenvolvimento de projetos técnicos de segurança contra incêndio conforme normas e exigências do Corpo de Bombeiros."
+  },
+  {
+    "id": "S3",
+    "title": "Elaboração Projeto de SPDA",
+    "description": "Criação de projetos de Sistema de Proteção contra Descargas Atmosféricas (SPDA) para edificações e estruturas."
+  },
+  {
+    "id": "S4",
+    "title": "Projetos de Andaimes e Linha de Vida",
+    "description": "Planejamento e elaboração de projetos técnicos para andaimes e sistemas de linha de vida voltados à segurança em altura."
+  },
+  {
+    "id": "S5",
+    "title": "Execução do Sistema de Proteção Contra Descarga Atmosférica (SPDA)",
+    "description": "Instalação e execução completa de sistemas de proteção contra raios e descargas atmosféricas."
+  },
+  {
+    "id": "S6",
+    "title": "Licenciamento Sanitário",
+    "description": "Assessoria e suporte para obtenção e regularização de licenças sanitárias junto aos órgãos competentes."
+  },
+  {
+    "id": "S7",
+    "title": "Execução de Sistema de Hidrantes",
+    "description": "Implantação e instalação de sistemas de hidrantes conforme normas técnicas e exigências legais."
+  },
+  {
+    "id": "S8",
+    "title": "Execução em Sistemas de Prevenção",
+    "description": "Execução e adequação de sistemas preventivos de segurança contra incêndio em diversos tipos de edificações."
+  },
+  {
+    "id": "S9",
+    "title": "Instalação de Equipamentos de Combate a Incêndio",
+    "description": "Instalação de equipamentos e dispositivos destinados ao combate e controle de incêndios."
+  },
+  {
+    "id": "S10",
+    "title": "Instalação e Manutenção de Detector de Fumaça",
+    "description": "Serviços de instalação, manutenção e testes em sistemas de detecção de fumaça."
+  },
+  {
+    "id": "S11",
+    "title": "Manutenção e Recarga de Extintores",
+    "description": "Inspeção, manutenção preventiva e recarga de extintores de incêndio conforme normas vigentes."
+  },
+  {
+    "id": "S12",
+    "title": "Venda de Equipamentos de Combate a Incêndio",
+    "description": "Comercialização de equipamentos e acessórios para prevenção e combate a incêndios."
+  },
+  {
+    "id": "S13",
+    "title": "Emissão e Renovação Certificado de Vistoria do Corpo de Bombeiros",
+    "description": "Suporte técnico e documental para emissão e renovação do AVCB/CLCB junto ao Corpo de Bombeiros."
+  },
+  {
+    "id": "S14",
+    "title": "Manutenção e Inspeção em Sistema de Hidrantes",
+    "description": "Serviços de inspeção, manutenção corretiva e preventiva em sistemas de hidrantes."
+  },
+  {
+    "id": "S15",
+    "title": "Manutenção e Instalações de Central de Alarme",
+    "description": "Instalação, configuração e manutenção de centrais de alarme e sistemas de monitoramento."
+  },
+  {
+    "id": "S16",
+    "title": "Teste de Estanqueidade de Gás GLP",
+    "description": "Realização de testes para verificação de vazamentos e integridade em sistemas de gás GLP."
+  },
+  {
+    "id": "S17",
+    "title": "Teste Hidrostático – Sistema de Hidrantes",
+    "description": "Execução de testes hidrostáticos para validação da resistência e funcionamento de sistemas de hidrantes."
+  },
+  {
+    "id": "S18",
+    "title": "Treinamentos Brigada de Incêndio",
+    "description": "Capacitação e treinamento de brigadas de incêndio para atuação em situações de emergência."
   }
 ]

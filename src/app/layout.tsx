@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Image from 'next/image';
-import { Footer, Navbar } from '../components';
+import { CartButton, CookieConsentBanner, Footer, Navbar } from '../components';
 import { Toaster } from 'sonner';
 
 const geistSans = Geist({
@@ -50,6 +50,8 @@ export default function RootLayout({
         <div className="relative z-10">
           <Navbar />
           <div>
+            <CartButton asFab />
+            <CookieConsentBanner />
             {children}
             <Toaster />
           </div>

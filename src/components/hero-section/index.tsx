@@ -20,7 +20,7 @@ export function HeroSection() {
           Grupo M.R. Engenharia
         </h1>
 
-        <p className="uppercase text-5xl lg:text-3xl xl:text-5xl leading-snug">
+        <p className="uppercase lg:text-5xl text-3xl xl:text-5xl leading-snug">
           Sistemas contra <span className="text-(--brand-color)">incêndio</span>{' '}
           e <span className="text-(--brand-color)">pânico</span>: Projeto,
           execução e{' '}
@@ -37,9 +37,9 @@ export function HeroSection() {
           Realizamos o serviço em até 7 dias, com garantia de 5 anos.
         </p>
 
-        <div className="mt-16 flex items-start gap-4">
+        <div className="mt-16 flex items-start gap-4 md:flex-row flex-col">
           <a
-            className="bg-(--brand-color) cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition"
+            className="bg-(--brand-color) cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition w-full sm:w-auto text-center"
             href="https://wa.me/5567991170917?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20dos%20servi%C3%A7os%20oferecidos%20pela%20MR."
             target="_blank"
           >
@@ -47,7 +47,7 @@ export function HeroSection() {
           </a>
           <button
             onClick={() => scrollToSection('services-section')}
-            className="bg-white text-black cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition"
+            className="bg-white text-black cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition w-full sm:w-auto"
           >
             Conheça nossos serviços
           </button>

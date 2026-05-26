@@ -1,7 +1,39 @@
+'use client';
+
+import services from '@/data/services.json';
+import { Pagination, ServiceCard } from '@/src/components';
+import { Info } from 'lucide-react';
+import { useMemo } from 'react';
+
 export default function ServicesPage() {
+  const renderedServices = useMemo(() => {
+    return services.map((service) => (
+      <ServiceCard
+        key={service.id}
+        service={service}
+        icon={<Info size={40} />}
+      />
+    ));
+  }, []);
+
   return (
-    <div>
-      <h1>Páginas de Serviços</h1>
-    </div>
+    <section className="flex flex-col gap-10 section min-h-[80vh]">
+      <h1 className="font-bold text-lg">Produtos</h1>
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-20">
+        {renderedServices}
+      </div> */}
+
+      <Pagination
+        items={services}
+        renderItem={(service) => (
+          <ServiceCard
+            key={service.id}
+            service={service}
+            icon={<Info size={40} />}
+          />
+        )}
+        itemsPerPage={10}
+      />
+    </section>
   );
 }

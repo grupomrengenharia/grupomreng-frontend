@@ -51,16 +51,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
-  padding-inline: 2.5rem;
+section,
+.section {
+  padding-inline: 1.5rem;
 }
 
-@media screen and (width >= 64rem /* 1024px */) {
-  section {
+@media screen and (width >= 72rem /* 1152px */) {
+  section,
+  .section {
     padding-inline: 5rem;
   }
 }
 
 #eapps-instagram-feed-1 > a {
   display: none !important;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
