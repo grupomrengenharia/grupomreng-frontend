@@ -31,9 +31,6 @@ export function Navbar() {
             <NavLink href="/cidades" label="Cidades" />
           </li>
           <li>
-            <NavLink href="/clientes" label="Clientes" />
-          </li>
-          <li>
             <NavLink href="/sobre-nos" label="Sobre nós" />
           </li>
           <li>

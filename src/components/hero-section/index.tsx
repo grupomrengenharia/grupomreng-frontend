@@ -1,4 +1,5 @@
 'use client';
+import gallery from '@/data/gallery.json';
 
 import { scrollToSection } from '@/src/utils';
 import Image from 'next/image';
@@ -57,8 +58,8 @@ export function HeroSection() {
       <div className="relative hidden lg:block">
         <div className="absolute right-1/8">
           <Image
-            src={'/images/hero-image-1.jpg'}
-            alt={'hero-image-1'}
+            src={gallery[2].url}
+            alt={gallery[2].description}
             width={300}
             height={300}
             className="rounded-lg shadow-[0_0_25px_rgba(255,80,80,0.6)]"
@@ -66,8 +67,8 @@ export function HeroSection() {
         </div>
         <div className="absolute top-25 left-1/8">
           <Image
-            src={'/images/hero-image-2.jpg'}
-            alt={'hero-image-2'}
+            src={gallery[0].url}
+            alt={gallery[0].description}
             width={300}
             height={300}
             className="object-cover rounded-md shadow-[0_0_20px_rgba(255,0,0,0.6),0_0_60px_rgba(255,0,0,0.4)]"

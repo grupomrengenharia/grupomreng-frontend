@@ -18,3 +18,4 @@ export { CartService } from './cart-service';
 export { ContactForm } from './contact-form';
 export { Pagination } from './pagination';
 export { CookieConsentBanner } from './cookie-consent-banner';
+export { GallerySection } from './gallery-section';
