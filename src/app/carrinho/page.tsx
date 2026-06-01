@@ -7,7 +7,7 @@ import {
   SectionTitle,
 } from '@/src/components';
 import { useCart } from '@/src/hooks';
-import { ContactFormData } from '@/src/lib';
+import { api, ContactFormData } from '@/src/lib';
 import Link from 'next/link';
 import { useMemo } from 'react';
 
@@ -51,9 +51,14 @@ export default function CartPage() {
   }, [services]);
 
   const handleSubmit = async (data: ContactFormData) => {
-    console.log('Form data:', data);
-    // Aqui você pode adicionar a lógica para enviar os dados do formulário para o backend ou processá-los conforme necessário.
-    // to-do: enviar e-mail e enviar pedido pro whatsapp
+    try {
+      console.log('Form data:', data);
+      console.log(data);
+      const response = await api.post('/send-form', data);
+      console.log(response);
+    } catch (e) {
+      console.log(e);
+    }
   };
 
   return (

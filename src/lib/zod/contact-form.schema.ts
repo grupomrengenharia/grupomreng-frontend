@@ -5,7 +5,7 @@ export const contactFormSchema = z.object({
 
   lastName: z.string().min(2, 'O sobrenome deve ter pelo menos 2 caracteres'),
 
-  email: z.string().email('E-mail inválido'),
+  email: z.email('E-mail inválido'),
 
   whatsapp: z
     .string()
