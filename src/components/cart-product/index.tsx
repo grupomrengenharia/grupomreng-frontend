@@ -2,6 +2,7 @@
 
 import { Product } from '@/src/@types';
 import { useCart } from '@/src/hooks';
+import { capitalize } from '@/src/utils';
 import { Trash } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -63,8 +64,8 @@ export function CartProduct({ product }: Readonly<CartProduct>) {
         className="flex-1 flex items-center hover:bg-slate-400/10 rounded-md transition-colors h-full p-2 px-4"
       >
         <div className="flex flex-col justify-center flex-2 gap-1 h-full">
-          <span className="font-bold text-lg">{product.name}</span>
-          <p>{product.description}</p>
+          <span className="font-bold text-lg">{capitalize(product.name)}</span>
+          <p className="line-clamp-2">{product.description}</p>
         </div>
       </Link>
 

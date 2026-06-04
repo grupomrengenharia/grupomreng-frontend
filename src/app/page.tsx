@@ -1,6 +1,6 @@
 'use client';
 
-import products from '@/data/products.json';
+import categories from '@/data/categories.json';
 import services from '@/data/services.json';
 import gallery from '@/data/gallery.json';
 
@@ -17,10 +17,14 @@ import {
 } from '../components';
 
 export default function Home() {
+  const baseProducts =
+    categories['abrigos-de-hidrante-e-extintor']['abrigos-para-extintor']
+      .products;
+
   return (
     <div className="space-y-10">
       <HeroSection />
-      <ProductsSection products={products} />
+      <ProductsSection products={baseProducts} />
       <GallerySection pictures={gallery} />
       <ServicesSection services={services} />
       <InstagramSection />

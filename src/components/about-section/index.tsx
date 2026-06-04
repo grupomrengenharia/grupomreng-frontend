@@ -81,7 +81,7 @@ export function AboutSection() {
         </div>
 
         <Link
-          href="/sobre"
+          href="/sobre-nos"
           className="bg-(--brand-color) cursor-pointer w-max self-center flex items-center gap-2 px-6 py-3 rounded-md font-semibold hover:brightness-90 transition"
         >
           Saiba mais sobre nossa equipe

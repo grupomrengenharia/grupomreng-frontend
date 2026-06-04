@@ -14,6 +14,7 @@ export function HeroSection() {
         min-h-[60svh]
         lg:mb-15
         px-10 lg:px-20
+        py-10
       "
     >
       <div className="space-y-6">

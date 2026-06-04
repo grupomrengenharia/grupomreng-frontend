@@ -7,12 +7,14 @@ interface PaginationProps<T> {
   items: T[];
   itemsPerPage?: number;
   renderItem: (item: T) => React.ReactNode;
+  asList?: boolean;
 }
 
 export function Pagination<T>({
   items,
   itemsPerPage = 10,
   renderItem,
+  asList = false,
 }: Readonly<PaginationProps<T>>) {
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -30,15 +32,18 @@ export function Pagination<T>({
       if (page < 1 || page > totalPages) return;
 
       setCurrentPage(page);
+      document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
     },
     [totalPages],
   );
 
+  const styles = asList
+    ? 'flex flex-col gap-4 mb-20'
+    : 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 mb-20';
+
   return (
     <div className="flex flex-col gap-6 mb-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 mb-20">
-        {paginatedItems.map(renderItem)}
-      </div>
+      <div className={styles}>{paginatedItems.map(renderItem)}</div>
 
       <div className="flex items-center justify-end gap-2">
         <button

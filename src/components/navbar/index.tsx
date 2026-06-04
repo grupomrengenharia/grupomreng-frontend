@@ -5,7 +5,7 @@ import { CartButton } from '../cart-button';
 
 export function Navbar() {
   return (
-    <header className="w-screen px-15 lg:px-30 py-5 bg-black/80 mb-10 ">
+    <header className="w-screen px-15 lg:px-30 py-5 bg-black/80">
       <nav className="flex items-center justify-between flex-col gap-10 lg:gap-0 lg:flex-row">
         <Link href="/">
           <div>
@@ -22,7 +22,7 @@ export function Navbar() {
             <NavLink href="/" label="Início" />
           </li>
           <li>
-            <NavLink href="/produtos" label="Produtos" />
+            <NavLink href="/produtos/categorias" label="Produtos" />
           </li>
           <li>
             <NavLink href="/servicos" label="Serviços" />

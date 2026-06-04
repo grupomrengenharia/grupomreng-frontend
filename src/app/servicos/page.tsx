@@ -6,7 +6,7 @@ import { Info } from 'lucide-react';
 
 export default function ServicesPage() {
   return (
-    <section className="flex flex-col gap-10 section min-h-[80vh]">
+    <section className="flex flex-col gap-10 section min-h-[80vh] mt-10">
       <h1 className="font-bold text-lg">Nossos Serviços</h1>
 
       <Pagination

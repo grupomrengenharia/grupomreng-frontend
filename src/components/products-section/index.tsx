@@ -30,7 +30,7 @@ export function ProductsSection({ products }: Props) {
       </div>
       <div className="mt-10 flex">
         <Link
-          href="/produtos"
+          href="/produtos/categorias"
           className="hover:bg-(--brand-color) border-white/20 border-2 hover:border-(--brand-color) cursor-pointer px-6 py-3 rounded-md font-semibold hover:brightness-90 transition min-w-full text-center"
         >
           Ver todos os produtos

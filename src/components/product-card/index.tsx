@@ -52,11 +52,11 @@ export function ProductCard({ product }: Props) {
         height={128}
         className="object-cover rounded-md "
       />
-      {/* <div className="relative w-32 h-full overflow-hidden shrink-0">
-      </div> */}
 
       <div className="flex flex-col justify-between gap-2 w-full h-full">
-        <span className="text-sm opacity-70">Cod.: {product.code}</span>
+        <span className="text-sm opacity-70">
+          Cod.: {product.variations[0].code}
+        </span>
         <Link href={`/produtos/${product.id}`}>
           <div className="flex flex-col hover:bg-slate-400/10 rounded-md transition-colors p-2">
             <h3 className="text-(--text-color-light) uppercase text-lg font-semibold">

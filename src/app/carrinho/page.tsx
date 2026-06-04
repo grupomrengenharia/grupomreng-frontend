@@ -52,17 +52,15 @@ export default function CartPage() {
 
   const handleSubmit = async (data: ContactFormData) => {
     try {
-      console.log('Form data:', data);
-      console.log(data);
       const response = await api.post('/send-form', data);
-      console.log(response);
-    } catch (e) {
-      console.log(e);
+      return response.data;
+    } catch {
+      console.log('Erro ao enviar pedido');
     }
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-10 section min-h-[70vh] mb-20 xl:gap-20">
+    <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-10 section min-h-[70vh] mb-20 xl:gap-20 pt-10 pb-10">
       <div className="flex flex-col gap-10">
         <SectionTitle title="Meu carrinho" />
 
@@ -70,7 +68,7 @@ export default function CartPage() {
           <div className="flex flex-col gap-5">
             <div className="flex items-center justify-between">
               <h2>Produtos</h2>
-              <Link href="/produtos" className="">
+              <Link href="/produtos/categorias" className="">
                 <span className="bg-(--primary-color) text-white text-xs px-4 py-2 rounded uppercase font-semibold cursor-pointer hover:bg-(--primary-color-dark) transition">
                   Adicionar mais
                 </span>

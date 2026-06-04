@@ -7,7 +7,7 @@ import { PartnersMarquee } from '@/src/components/partners-section/partners-marq
 
 export default function AboutUsPage() {
   return (
-    <section className="min-h-[80vh] flex flex-col gap-10 mb-20">
+    <section className="min-h-[80vh] flex flex-col gap-10 mb-20 mt-10">
       <h1 className="font-bold text-2xl">Sobre nós</h1>
 
       <div className="grid grid-cols-1 gap-10 xl:grid-cols-[2fr_6fr] lg:gap-20 mb-10">

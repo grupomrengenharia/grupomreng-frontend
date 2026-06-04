@@ -46,7 +46,7 @@ export default function SingleProductPage() {
       <div>
         <h2>Produto não encontrado</h2>
         <Link
-          href="/produtos"
+          href="/produtos/categorias"
           className="text-(--primary-color) hover:underline"
         >
           Ir para página de produtos
@@ -71,8 +71,9 @@ export default function SingleProductPage() {
 
         <div className="flex flex-col gap-2">
           <span className="text-sm opacity-70 block">
-            Categoria: {product.category}
+            Categorias: {product.categories.join(', ')}
           </span>
+          {/* // to-do ajustar variação */}
           <span className="text-sm opacity-70 block">
             Código do produto: {product.code}
           </span>
