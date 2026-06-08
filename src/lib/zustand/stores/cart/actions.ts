@@ -20,7 +20,14 @@ export const cartActions = (
     }
 
     set({
-      products: [...products, { ...product, quantity: 1 }],
+      products: [
+        ...products,
+        {
+          ...product,
+          quantity: 1,
+          variationCode: product.variationCode || product.variations[0].code,
+        },
+      ],
       itemsCount: get().itemsCount + 1,
     });
   },
