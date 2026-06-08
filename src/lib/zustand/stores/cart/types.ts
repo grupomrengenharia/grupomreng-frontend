@@ -1,7 +1,9 @@
 import { Product, Service } from '@/src/@types';
 
 export type CartStoreActions = {
-  addProductToCart: (product: Product) => void;
+  addProductToCart: (
+    product: Product & { quantity?: number; variationCode?: string },
+  ) => void;
   removeProductFromCart: (productId: string) => void;
   addServiceToCart: (service: Service) => void;
   removeServiceFromCart: (serviceId: string) => void;
@@ -13,7 +15,7 @@ export type CartStoreActions = {
 };
 
 export type CartStoreState = {
-  products: (Product & { quantity: number })[];
+  products: (Product & { quantity: number; variationCode: string })[];
   services: Service[];
   itemsCount: number;
 };

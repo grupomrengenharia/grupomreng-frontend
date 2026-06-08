@@ -6,15 +6,7 @@ import { CategoryTree } from '../components/types';
 import { findCategory } from '../components/utils';
 import { ProductsView } from '../components/products-view';
 
-type Props = {
-  params: Promise<{
-    slug: string[];
-  }>;
-};
-
-export default async function CategoriesPage({ params }: Readonly<Props>) {
-  const { slug } = await params;
-
+export default async function CategoriesPage() {
   const tree = categories as unknown as CategoryTree;
 
   const category = findCategory(tree, [

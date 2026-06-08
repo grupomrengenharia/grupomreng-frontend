@@ -18,9 +18,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'MR Engenharia | Início',
+  title: {
+    default: 'MR Engenharia',
+    template: '%s | MR Engenharia',
+  },
   description:
-    'Especialistas em soluções para sistemas de prevenção e combate a incêndio e pânico (PSCIP)',
+    'Especialistas em soluções para sistemas de prevenção e combate a incêndio e pânico (PSCIP). Loja de produtos de alta qualidade para segurança e prevenção de incêndios. Encontre tudo o que você precisa para proteger seu ambiente com confiança.',
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    siteName: 'MR Engenharia',
+    locale: 'pt_BR',
+    type: 'website',
+  },
 };
 
 const GA_ID = String(process.env.NEXT_PUBLIC_GA_ID);
@@ -31,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" data-scroll-behavior="smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative min-h-svh overflow-x-hidden`}
       >

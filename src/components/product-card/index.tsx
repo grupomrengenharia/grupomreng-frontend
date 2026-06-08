@@ -31,7 +31,10 @@ export function ProductCard({ product }: Props) {
       data: product,
     });
 
-    addProductToCart(product);
+    addProductToCart({
+      ...product,
+      variationCode: product.variations[0]?.code,
+    });
   }, [addProductToCart, product]);
 
   const handleRemoveFromCart = useCallback(() => {

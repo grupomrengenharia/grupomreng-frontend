@@ -5,16 +5,22 @@ import Link from 'next/link';
 
 interface Props {
   products: Product[];
+  maxProducts?: number;
+  title?: string;
 }
 
 const MAX_PRODUCTS = 3;
 
-export function ProductsSection({ products }: Props) {
-  const productsToShow = products.slice(0, MAX_PRODUCTS);
+export function ProductsSection({
+  products,
+  maxProducts = MAX_PRODUCTS,
+  title = 'Produtos',
+}: Props) {
+  const productsToShow = products.slice(0, maxProducts);
 
   return (
-    <section className="space-y-2">
-      <SectionTitle title="Produtos" />
+    <div className="space-y-2">
+      <SectionTitle title={title} />
       <div
         className="
           grid 
@@ -36,6 +42,6 @@ export function ProductsSection({ products }: Props) {
           Ver todos os produtos
         </Link>
       </div>
-    </section>
+    </div>
   );
 }

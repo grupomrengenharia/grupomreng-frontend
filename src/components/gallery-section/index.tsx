@@ -54,6 +54,7 @@ export function GallerySection({ pictures }: Readonly<Props>) {
           snap-mandatory
           no-scrollbar
           scroll-smooth
+          cursor-pointer
         "
       >
         {pictures.map((picture, index) => {

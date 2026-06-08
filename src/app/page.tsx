@@ -24,7 +24,9 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <HeroSection />
-      <ProductsSection products={baseProducts} />
+      <section>
+        <ProductsSection products={baseProducts} />
+      </section>
       <GallerySection pictures={gallery} />
       <ServicesSection services={services} />
       <InstagramSection />
