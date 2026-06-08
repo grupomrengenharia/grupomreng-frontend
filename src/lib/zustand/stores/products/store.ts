@@ -4,12 +4,12 @@ import { persist } from 'zustand/middleware';
 import { ProductsStore } from './types';
 import { productsActions } from './actions';
 
-import products from '@/data/products.json';
+// to-do importar produtos do json de produto separados por ID e não por categoria, para facilitar a busca por ID do produto
 
 export const productsStore = createStore<ProductsStore>()(
   persist(
     (set, get) => ({
-      products,
+      products: [],
       ...productsActions(set, get),
     }),
     {
