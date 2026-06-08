@@ -52,7 +52,21 @@ export default function CartPage() {
 
   const handleSubmit = async (data: ContactFormData) => {
     try {
-      const response = await api.post('/send-form', data);
+      const response = await api.post('/send-form', {
+        customerData: data,
+        cartData: {
+          products: products.map((p) => ({
+            id: p.id,
+            name: p.name,
+            quantity: p.quantity,
+            variationCode: p.variationCode,
+          })),
+          services: services.map((s) => ({
+            id: s.id,
+            name: s.title,
+          })),
+        },
+      });
       return response.data;
     } catch {
       console.log('Erro ao enviar pedido');
