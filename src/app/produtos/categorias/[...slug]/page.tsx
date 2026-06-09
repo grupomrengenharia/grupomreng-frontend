@@ -6,7 +6,6 @@ import { notFound } from 'next/navigation';
 import { CategoryTree } from '../../components/types';
 import { findCategory } from '../../components/utils';
 import { ProductsView } from '../../components/products-view';
-import { sendGAEvent } from '@next/third-parties/google';
 
 type Props = {
   params: Promise<{
@@ -90,13 +89,6 @@ export default async function ProductsByCategory({ params }: Readonly<Props>) {
   ) {
     return notFound();
   }
-
-  sendGAEvent('event', 'page_view', {
-    page: 'categorias',
-    data: {
-      category: slug,
-    },
-  });
 
   return (
     <div className="flex">

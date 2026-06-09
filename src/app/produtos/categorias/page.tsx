@@ -1,3 +1,5 @@
+'use client';
+
 import categories from '@/data/categories.json';
 
 import { notFound } from 'next/navigation';
@@ -7,7 +9,7 @@ import { findCategory } from '../components/utils';
 import { ProductsView } from '../components/products-view';
 import { sendGAEvent } from '@next/third-parties/google';
 
-export default async function CategoriesPage() {
+export default function CategoriesPage() {
   const tree = categories as unknown as CategoryTree;
 
   const category = findCategory(tree, [

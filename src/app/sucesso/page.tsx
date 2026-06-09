@@ -1,3 +1,5 @@
+'use client';
+
 import { ProductsSection } from '@/src/components';
 import Link from 'next/link';
 import categories from '@/data/categories.json';
