@@ -15,11 +15,16 @@ import {
   ProductsSection,
   ServicesSection,
 } from '../components';
+import { sendGAEvent } from '@next/third-parties/google';
 
 export default function Home() {
   const baseProducts =
     categories['abrigos-de-hidrante-e-extintor']['abrigos-para-extintor']
       .products;
+
+  sendGAEvent('event', 'page_view', {
+    page: 'home',
+  });
 
   return (
     <div className="space-y-10">

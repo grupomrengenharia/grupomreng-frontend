@@ -1,6 +1,7 @@
 'use client';
 
 import { Picture } from '@/src/@types';
+import { sendGAEvent } from '@next/third-parties/google';
 import Image from 'next/image';
 import { useCallback, useRef, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
@@ -26,18 +27,29 @@ export function GallerySection({ pictures }: Readonly<Props>) {
     setCurrentIndex(index);
   }, []);
 
-  const scrollToIndex = useCallback((index: number) => {
-    if (!containerRef.current) return;
+  const scrollToIndex = useCallback(
+    (index: number, from: 'picture' | 'bullet') => {
+      if (!containerRef.current) return;
 
-    const itemWidth = 344;
+      sendGAEvent('event', 'picture_view', {
+        context: 'gallery_home',
+        data: {
+          index,
+          from,
+        },
+      });
 
-    containerRef.current.scrollTo({
-      left: index * itemWidth,
-      behavior: 'smooth',
-    });
+      const itemWidth = 344;
 
-    setCurrentIndex(index);
-  }, []);
+      containerRef.current.scrollTo({
+        left: index * itemWidth,
+        behavior: 'smooth',
+      });
+
+      setCurrentIndex(index);
+    },
+    [],
+  );
 
   return (
     <section className="space-y-4">
@@ -72,7 +84,7 @@ export function GallerySection({ pictures }: Readonly<Props>) {
                 'relative min-w-75 h-100 rounded-xl overflow-hidden shrink-0 snap-start ',
                 styles,
               )}
-              onClick={() => scrollToIndex(index)}
+              onClick={() => scrollToIndex(index, 'picture')}
             >
               <Image
                 alt={picture.description}
@@ -97,7 +109,7 @@ export function GallerySection({ pictures }: Readonly<Props>) {
           return (
             <button
               key={picture.id}
-              onClick={() => scrollToIndex(index)}
+              onClick={() => scrollToIndex(index, 'bullet')}
               className={twMerge(
                 'h-2.5 w-2.5 rounded-full transition-all cursor-pointer hover:opacity-75',
                 styles,

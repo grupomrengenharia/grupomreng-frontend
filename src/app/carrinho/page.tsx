@@ -8,6 +8,7 @@ import {
 } from '@/src/components';
 import { useCart } from '@/src/hooks';
 import { api, ContactFormData } from '@/src/lib';
+import { sendGAEvent } from '@next/third-parties/google';
 import Link from 'next/link';
 import { useMemo } from 'react';
 import { toast } from 'sonner';
@@ -53,7 +54,19 @@ export default function CartPage() {
 
   const handleSubmit = async (data: ContactFormData) => {
     try {
+      sendGAEvent('event', 'buttonClicked', {
+        buttonName: 'Enviar',
+        context: 'cart_form',
+        data,
+      });
+
       if (itemsCount === 0) {
+        sendGAEvent('event', 'buttonClicked', {
+          buttonName: 'Enviar',
+          context: 'cart_form__empty_cart',
+          data,
+        });
+
         toast.info('Adicione pelo menos um item no carrinho!');
         return;
       }
@@ -72,6 +85,11 @@ export default function CartPage() {
             name: s.title,
           })),
         },
+      });
+
+      sendGAEvent('event', 'generate_lead', {
+        context: 'cart_form__sent',
+        data,
       });
 
       clearCart();
@@ -116,7 +134,7 @@ export default function CartPage() {
 
       <div className="bg-black/65 p-6 rounded-lg text-neutral-300 h-max flex flex-col justify-between gap-5">
         <h2 className="text-lg font-bold">Finalizar pedido</h2>
-        <ContactForm handleSubmit={handleSubmit} />
+        <ContactForm handleSubmit={handleSubmit} clearAfterSubmit />
         <p className="text-sm text-center">
           Entraremos em contato com você em breve para confirmar os detalhes do
           seu pedido e fornecer um orçamento personalizado. Obrigado por

@@ -69,6 +69,6 @@ export const cartActions = (
     });
   },
   clearCart: () => {
-    set({ products: [], services: [] });
+    set({ products: [], services: [], itemsCount: 0 });
   },
 });

@@ -47,7 +47,7 @@ export function ContactFormSection() {
           </div>
         </div>
         <div className="bg-black/65 py-10 px-6 rounded-md">
-          <ContactForm handleSubmit={handleSubmit} />
+          <ContactForm handleSubmit={handleSubmit} clearAfterSubmit />
         </div>
       </div>
     </section>

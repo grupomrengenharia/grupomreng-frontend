@@ -60,6 +60,17 @@ export default function SingleProductPage() {
       const variation = product.variations.find(
         (v) => v.code === e.target.value,
       );
+
+      sendGAEvent('event', 'product_details_view', {
+        context: 'product_variation',
+        data: {
+          productId: product.id,
+          productName: product.name,
+          variationCode: variation?.code,
+          variationDescription: variation?.description,
+        },
+      });
+
       if (variation) {
         setSelectedVariation(variation);
       }
@@ -85,6 +96,14 @@ export default function SingleProductPage() {
       // Converte scroll vertical em horizontal
       e.preventDefault();
       carousel.scrollLeft += e.deltaY;
+
+      sendGAEvent('event', 'scroll_carousel', {
+        context: 'product_view',
+        data: {
+          id: product?.id,
+          name: product?.name,
+        },
+      });
     };
 
     carousel.addEventListener('wheel', handleWheel, {
@@ -94,7 +113,16 @@ export default function SingleProductPage() {
     return () => {
       carousel.removeEventListener('wheel', handleWheel);
     };
-  }, []);
+  }, [product]);
+
+  useEffect(() => {
+    sendGAEvent('event', 'product_view', {
+      data: {
+        name: product?.name,
+        id: product?.id,
+      },
+    });
+  }, [product]);
 
   if (!product || !selectedVariation) {
     return (
