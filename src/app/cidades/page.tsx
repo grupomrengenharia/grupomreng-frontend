@@ -1,11 +1,14 @@
 'use client';
 
 import { sendGAEvent } from '@next/third-parties/google';
+import { useEffect } from 'react';
 
 export default function CitiesPage() {
-  sendGAEvent('event', 'page_view', {
-    page: 'cidades',
-  });
+  useEffect(() => {
+    sendGAEvent('event', 'page_view', {
+      page: 'cidades',
+    });
+  }, []);
 
   return (
     <div>

@@ -7,11 +7,14 @@ import { FaScaleBalanced, FaTree } from 'react-icons/fa6';
 import { TbPresentationAnalytics } from 'react-icons/tb';
 import { PartnersMarquee } from '@/src/components/partners-section/partners-marquee';
 import { sendGAEvent } from '@next/third-parties/google';
+import { useEffect } from 'react';
 
 export default function AboutUsPage() {
-  sendGAEvent('event', 'page_view', {
-    page: 'sobre-nos',
-  });
+  useEffect(() => {
+    sendGAEvent('event', 'page_view', {
+      page: 'sobre-nos',
+    });
+  }, []);
 
   return (
     <section className="min-h-[80vh] flex flex-col gap-10 mb-20 mt-10">

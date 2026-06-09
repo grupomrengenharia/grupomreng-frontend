@@ -4,11 +4,14 @@ import services from '@/data/services.json';
 import { Pagination, ServiceCard } from '@/src/components';
 import { sendGAEvent } from '@next/third-parties/google';
 import { Info } from 'lucide-react';
+import { useEffect } from 'react';
 
 export default function ServicesPage() {
-  sendGAEvent('event', 'page_view', {
-    page: 'servicos',
-  });
+  useEffect(() => {
+    sendGAEvent('event', 'page_view', {
+      page: 'servicos',
+    });
+  }, []);
 
   return (
     <section className="flex flex-col gap-10 section min-h-[80vh] mt-10">

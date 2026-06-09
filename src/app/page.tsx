@@ -16,15 +16,18 @@ import {
   ServicesSection,
 } from '../components';
 import { sendGAEvent } from '@next/third-parties/google';
+import { useEffect } from 'react';
 
 export default function Home() {
   const baseProducts =
     categories['abrigos-de-hidrante-e-extintor']['abrigos-para-extintor']
       .products;
 
-  sendGAEvent('event', 'page_view', {
-    page: 'home',
-  });
+  useEffect(() => {
+    sendGAEvent('event', 'page_view', {
+      page: 'home',
+    });
+  }, []);
 
   return (
     <div className="space-y-10">

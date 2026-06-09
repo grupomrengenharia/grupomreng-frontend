@@ -4,13 +4,16 @@ import { ProductsSection } from '@/src/components';
 import Link from 'next/link';
 import categories from '@/data/categories.json';
 import { sendGAEvent } from '@next/third-parties/google';
+import { useEffect } from 'react';
 
 export default function SuccessPage() {
   const baseProducts = categories['sinalizacao-de-emergencia'].products;
 
-  sendGAEvent('event', 'generate_lead', {
-    context: 'success_page',
-  });
+  useEffect(() => {
+    sendGAEvent('event', 'generate_lead', {
+      context: 'success_page',
+    });
+  }, []);
 
   return (
     <section className="min-h-[80vh] py-20 flex flex-col gap-20">
