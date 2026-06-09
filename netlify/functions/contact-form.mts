@@ -12,7 +12,7 @@ const handler = async (req: Request) => {
     const mailgun = new Mailgun(formData);
     const mg = mailgun.client({
       username: 'api',
-      key: String(Netlify.env.get('MAILGUN_SENDING_API_KEY')),
+      key: String(process.env.MAILGUN_SENDING_API_KEY),
     });
 
     const html = template
@@ -23,15 +23,12 @@ const handler = async (req: Request) => {
       .replace('{{whatsapp}}', whatsapp)
       .replace('{{message}}', message ?? 'Sem mensagem informada');
 
-    await mg.messages.create(
-      String(Netlify.env.get('MAILGUN_PRODUCTION_DOMAIN')),
-      {
-        from: 'Grupo MR Engenharia - Contato <no-reply@grupomreng.com.br>',
-        to: [Netlify.env.get('EMAIL_TO')!],
-        subject: `Contato de ${firstName}`,
-        html,
-      },
-    );
+    await mg.messages.create(String(process.env.MAILGUN_PRODUCTION_DOMAIN), {
+      from: 'Grupo MR Engenharia - Contato <no-reply@grupomreng.com.br>',
+      to: [process.env.EMAIL_TO!],
+      subject: `Contato de ${firstName}`,
+      html,
+    });
 
     return new Response(JSON.stringify({ success: true }), {
       status: 200,
