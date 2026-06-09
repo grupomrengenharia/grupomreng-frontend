@@ -10,9 +10,10 @@ import { useCart } from '@/src/hooks';
 import { api, ContactFormData } from '@/src/lib';
 import Link from 'next/link';
 import { useMemo } from 'react';
+import { toast } from 'sonner';
 
 export default function CartPage() {
-  const { products, services } = useCart();
+  const { products, services, clearCart, itemsCount } = useCart();
 
   const renderedProducts = useMemo(() => {
     if (products.length === 0) {
@@ -52,7 +53,12 @@ export default function CartPage() {
 
   const handleSubmit = async (data: ContactFormData) => {
     try {
-      const response = await api.post('/send-form', {
+      if (itemsCount === 0) {
+        toast.info('Adicione pelo menos um item no carrinho!');
+        return;
+      }
+
+      await api.post('/quote-form', {
         customerData: data,
         cartData: {
           products: products.map((p) => ({
@@ -67,14 +73,17 @@ export default function CartPage() {
           })),
         },
       });
-      return response.data;
+
+      clearCart();
     } catch {
-      console.log('Erro ao enviar pedido');
+      toast.error(
+        'Houve um erro ao processar sua solicitação. Tente novamente em alguns segundos',
+      );
     }
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-10 section min-h-[70vh] mb-20 xl:gap-20 pt-10 pb-10">
+    <div className="grid grid-cols-1 xl:grid-cols-[2fr_2fr] 2xl:grid-cols-[3fr_1fr] gap-10 section min-h-[70vh] mb-20 xl:gap-20 pt-10 pb-10">
       <div className="flex flex-col gap-10">
         <SectionTitle title="Meu carrinho" />
 
@@ -105,7 +114,7 @@ export default function CartPage() {
         </div>
       </div>
 
-      <div className="bg-black/65 p-6 rounded-lg text-neutral-300 max-h-[80vh] flex flex-col justify-between gap-5">
+      <div className="bg-black/65 p-6 rounded-lg text-neutral-300 h-max flex flex-col justify-between gap-5">
         <h2 className="text-lg font-bold">Finalizar pedido</h2>
         <ContactForm handleSubmit={handleSubmit} />
         <p className="text-sm text-center">

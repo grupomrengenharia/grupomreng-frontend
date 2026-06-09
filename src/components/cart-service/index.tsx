@@ -12,14 +12,14 @@ export function CartService({ service }: Readonly<Props>) {
   const { removeServiceFromCart } = useCart();
 
   return (
-    <div className="flex items-center w-full gap-5 bg-slate-400/5 p-3 rounded-md h-36">
+    <div className="flex flex-col sm:flex-row items-center w-full gap-5 bg-slate-400/5 py-6 px-4 lg:p-3 rounded-md lg:h-36">
       <div className="relative w-24 h-28 flex items-center justify-center overflow-hidden">
         <VscWorkspaceTrusted size={48} />
       </div>
 
       <Link
         href={`/servicos/${service.id}`}
-        className="flex-1 flex items-center hover:bg-slate-400/10 rounded-md transition-colors h-full p-2 px-4"
+        className="flex-1 flex items-center text-center hover:bg-slate-400/10 rounded-md transition-colors h-full"
       >
         <div className="flex flex-col justify-center flex-2 gap-1 h-full">
           <span className="font-bold text-lg">{service.title}</span>

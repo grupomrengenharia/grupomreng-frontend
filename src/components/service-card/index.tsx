@@ -63,10 +63,13 @@ export function ServiceCard({ service, icon }: Props) {
         <div className="self-center justify-self-center flex items-center justify-center w-20 h-20 bg-black/50 rounded-full">
           {icon}
         </div>
+
         <h3 className="text-xl font-bold">{service.title}</h3>
+
         <p className=" p-4 rounded-lg bg-black/55 flex justify-center items-center">
           {service.description}
         </p>
+
         <div
           className="py-4 flex items-center justify-center"
           suppressHydrationWarning

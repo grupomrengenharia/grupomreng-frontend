@@ -49,7 +49,7 @@ export function CartProduct({ product }: Readonly<CartProduct>) {
   );
 
   return (
-    <div className="flex items-center w-full gap-5 bg-slate-400/5 p-3 rounded-md h-36">
+    <div className="flex flex-col sm:flex-row items-center w-full gap-5 bg-slate-400/5 py-10 sm:p-3 rounded-md sm:h-36">
       <div className="relative w-24 h-28 overflow-hidden">
         <Image
           src={product.images[0]}
@@ -63,13 +63,13 @@ export function CartProduct({ product }: Readonly<CartProduct>) {
         href={`/produtos/${product.id}`}
         className="flex-1 flex items-center hover:bg-slate-400/10 rounded-md transition-colors h-full p-2 px-4"
       >
-        <div className="flex flex-col justify-center flex-2 gap-1 h-full">
+        <div className="flex flex-col justify-center flex-2 gap-1 h-full text-center">
           <span className="font-bold text-lg">{capitalize(product.name)}</span>
           <p className="line-clamp-2">{product.description}</p>
         </div>
       </Link>
 
-      <div className="flex gap-24 items-center mr-6">
+      <div className="flex gap-24 xl:gap-16 2xl:gap-24 items-center mr-6">
         <div className="flex gap-2">
           <button
             onClick={() => handleUpdateQuantity('decrement')}

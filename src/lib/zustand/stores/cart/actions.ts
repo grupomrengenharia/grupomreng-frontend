@@ -68,4 +68,7 @@ export const cartActions = (
       ),
     });
   },
+  clearCart: () => {
+    set({ products: [], services: [] });
+  },
 });

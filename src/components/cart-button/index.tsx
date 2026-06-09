@@ -15,7 +15,7 @@ export function CartButton({ asFab = false }: Readonly<Props>) {
   const pathname = usePathname();
 
   const fabStyles = asFab
-    ? 'fixed bottom-5 right-5 z-10 p-5 rounded-full text-white bg-(--brand-color) justify-center transiton-all hover:opacity-75'
+    ? 'fixed bottom-5 right-5 z-50 p-5 rounded-full text-white bg-(--brand-color) justify-center  border border-black'
     : '';
 
   if (asFab && (itemsCount === 0 || pathname === '/carrinho')) {

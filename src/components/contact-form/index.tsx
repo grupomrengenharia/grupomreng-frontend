@@ -11,14 +11,18 @@ import { useCallback } from 'react';
 
 interface Props {
   handleSubmit: (data: ContactFormData) => Promise<void>;
+  clearAfterSubmit?: boolean;
 }
 
-export function ContactForm({ handleSubmit }: Readonly<Props>) {
+export function ContactForm({
+  handleSubmit,
+  clearAfterSubmit = false,
+}: Readonly<Props>) {
   const {
     register,
     handleSubmit: formhandleSubmit,
-    formState: { errors, isSubmitting },
     reset,
+    formState: { errors, isSubmitting },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
   });
@@ -26,9 +30,11 @@ export function ContactForm({ handleSubmit }: Readonly<Props>) {
   const onSubmit = useCallback(
     async (data: ContactFormData) => {
       await handleSubmit(data);
-      reset();
+      if (clearAfterSubmit) {
+        reset();
+      }
     },
-    [handleSubmit, reset],
+    [handleSubmit, reset, clearAfterSubmit],
   );
 
   return (

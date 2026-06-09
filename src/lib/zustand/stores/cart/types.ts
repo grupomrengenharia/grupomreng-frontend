@@ -12,6 +12,7 @@ export type CartStoreActions = {
   ) => (Product & { quantity: number }) | undefined;
   findCartService: (serviceId: string) => Service | undefined;
   updateProductQuantity: (productId: string, quantity: number) => void;
+  clearCart: () => void;
 };
 
 export type CartStoreState = {

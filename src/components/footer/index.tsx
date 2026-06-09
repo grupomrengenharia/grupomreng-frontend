@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 
 export function Footer() {
   return (
-    <footer className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 bg-(--soft-black) py-10 px-20">
+    <footer className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 bg-(--soft-black) py-10 px-5 sm:px-20">
       <div className="flex flex-col items-start justify-center gap-6">
         <h2 className="font-bold text-lg">Onde estamos</h2>
         <address>
