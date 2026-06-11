@@ -1,7 +1,7 @@
 import { Product } from './product';
 import { Service } from './service';
 
-type CartProduct = Product & { quantity: number };
+export type CartProduct = Product & { quantity: number; variationCode: string };
 
 export type Cart = {
   products: CartProduct[];

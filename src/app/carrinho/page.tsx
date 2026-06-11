@@ -8,6 +8,7 @@ import {
 } from '@/src/components';
 import { useCart } from '@/src/hooks';
 import { api, ContactFormData } from '@/src/lib';
+import { formatWhatsAppMessage } from '@/src/utils';
 import { sendGAEvent } from '@next/third-parties/google';
 import Link from 'next/link';
 import { useMemo } from 'react';
@@ -91,6 +92,8 @@ export default function CartPage() {
         context: 'cart_form__sent',
         data,
       });
+
+      window.open(formatWhatsAppMessage(data, products, services), '_blank');
 
       clearCart();
     } catch {

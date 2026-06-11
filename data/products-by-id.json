@@ -61,7 +61,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1505",
+        "code": "1505",
         "grossWeight": "3.200Kg",
         "netWeight": "3.100Kg"
       }
@@ -81,7 +81,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1814",
+        "code": "1814",
         "grossWeight": "29.600Kg",
         "netWeight": "29.500Kg"
       }
@@ -110,7 +110,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1896",
+        "code": "1896",
         "grossWeight": "5.555Kg",
         "netWeight": "5.455Kg"
       }
@@ -130,7 +130,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5256",
+        "code": "5256",
         "grossWeight": "9.000Kg",
         "netWeight": "8.900Kg"
       }
@@ -150,7 +150,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5307",
+        "code": "5307",
         "grossWeight": "10.000Kg",
         "netWeight": "9.900Kg"
       }
@@ -170,7 +170,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 98",
+        "code": "98",
         "grossWeight": "34.000Kg",
         "netWeight": "33.900Kg"
       }
@@ -203,7 +203,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 408",
+        "code": "408",
         "grossWeight": "10.200Kg",
         "netWeight": "10.100Kg"
       }
@@ -236,7 +236,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 410",
+        "code": "410",
         "grossWeight": "7.135Kg",
         "netWeight": "7.035Kg"
       }
@@ -269,7 +269,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1823",
+        "code": "1823",
         "grossWeight": "13.100Kg",
         "netWeight": "13.000Kg"
       }
@@ -302,7 +302,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 755",
+        "code": "755",
         "grossWeight": "18.675Kg",
         "netWeight": "18.575Kg"
       }
@@ -335,7 +335,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 756",
+        "code": "756",
         "grossWeight": "23.045Kg",
         "netWeight": "22.945Kg"
       }
@@ -359,7 +359,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1504",
+        "code": "1504",
         "grossWeight": "7.000Kg",
         "netWeight": "6.900Kg"
       }
@@ -383,7 +383,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1753",
+        "code": "1753",
         "grossWeight": "10.800Kg",
         "netWeight": "10.700Kg"
       }
@@ -416,7 +416,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2421",
+        "code": "2421",
         "grossWeight": "15.800Kg",
         "netWeight": "15.700Kg"
       }
@@ -440,7 +440,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5440",
+        "code": "5440",
         "grossWeight": "12.000Kg",
         "netWeight": "11.900Kg"
       }
@@ -477,7 +477,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4857",
+        "code": "4857",
         "grossWeight": "14.000Kg",
         "netWeight": "13.900Kg"
       }
@@ -501,7 +501,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6958",
+        "code": "6958",
         "grossWeight": "7.100Kg",
         "netWeight": "7.000Kg"
       }
@@ -522,7 +522,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3854",
+        "code": "3854",
         "grossWeight": "25.000Kg",
         "netWeight": "24.900Kg"
       }
@@ -546,7 +546,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5254",
+        "code": "5254",
         "grossWeight": "9.000Kg",
         "netWeight": "8.900Kg"
       }
@@ -570,7 +570,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5255",
+        "code": "5255",
         "grossWeight": "10.000Kg",
         "netWeight": "9.900Kg"
       }
@@ -591,7 +591,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5078",
+        "code": "5078",
         "grossWeight": "32.000Kg",
         "netWeight": "31.900Kg"
       }
@@ -624,7 +624,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7054",
+        "code": "7054",
         "grossWeight": "5.565Kg",
         "netWeight": "5.555Kg"
       }
@@ -657,7 +657,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 409",
+        "code": "409",
         "grossWeight": "11.010Kg",
         "netWeight": "10.910Kg"
       }
@@ -690,7 +690,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 411",
+        "code": "411",
         "grossWeight": "8.105Kg",
         "netWeight": "8.005Kg"
       }
@@ -723,7 +723,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2064",
+        "code": "2064",
         "grossWeight": "11.210Kg",
         "netWeight": "11.110Kg"
       }
@@ -744,7 +744,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2069",
+        "code": "2069",
         "grossWeight": "8.010Kg",
         "netWeight": "8.000Kg"
       }
@@ -765,7 +765,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2073",
+        "code": "2073",
         "grossWeight": "19.010Kg",
         "netWeight": "19.000Kg"
       }
@@ -788,7 +788,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1369",
+        "code": "1369",
         "grossWeight": "0.060Kg",
         "netWeight": "0.050Kg"
       }
@@ -808,7 +808,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5357",
+        "code": "5357",
         "grossWeight": "110.010Kg",
         "netWeight": "110.000Kg"
       }
@@ -828,7 +828,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6482",
+        "code": "6482",
         "grossWeight": "161.010Kg",
         "netWeight": "161.000Kg"
       }
@@ -845,7 +845,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 581",
+        "code": "581",
         "grossWeight": "25.010Kg",
         "netWeight": "25.000Kg"
       }
@@ -862,7 +862,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7804",
+        "code": "7804",
         "grossWeight": "25.100Kg",
         "netWeight": "25.000Kg"
       }
@@ -896,7 +896,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 582",
+        "code": "582",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
@@ -1001,7 +1001,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 586",
+        "code": "586",
         "grossWeight": "0.660Kg",
         "netWeight": "0.650Kg"
       }
@@ -1035,7 +1035,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 587",
+        "code": "587",
         "grossWeight": "0.410Kg",
         "netWeight": "0.400Kg"
       }
@@ -1140,7 +1140,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 597",
+        "code": "597",
         "grossWeight": "0.035Kg",
         "netWeight": "0.025Kg"
       }
@@ -1171,13 +1171,13 @@
         "description": "M-22",
         "grossWeight": "0.060 Kg",
         "netWeight": "0.050 Kg",
-        "code": "Código: 598"
+        "code": "598"
       },
       {
         "description": "M-30",
         "grossWeight": "0.150 Kg",
         "netWeight": "0.140 Kg",
-        "code": "Código: 599"
+        "code": "599"
       }
     ],
     "id": "efa607b5-454f-4bda-8101-12779b8130ae"
@@ -1206,13 +1206,13 @@
         "description": "M-22",
         "grossWeight": "0.060 Kg",
         "netWeight": "0.050 Kg",
-        "code": "Código: 600"
+        "code": "600"
       },
       {
         "description": "M-30",
         "grossWeight": "0.110 Kg",
         "netWeight": "0.100 Kg",
-        "code": "Código: 601"
+        "code": "601"
       }
     ],
     "id": "1f5d0726-3dec-4edb-985e-7125c1f261be"
@@ -1286,7 +1286,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 611",
+        "code": "611",
         "grossWeight": "0.210Kg",
         "netWeight": "0.200Kg"
       }
@@ -1335,7 +1335,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 625",
+        "code": "625",
         "grossWeight": "0.454Kg",
         "netWeight": "0.444Kg"
       }
@@ -1355,7 +1355,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2424",
+        "code": "2424",
         "grossWeight": "4.710Kg",
         "netWeight": "4.700Kg"
       }
@@ -1384,7 +1384,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 626",
+        "code": "626",
         "grossWeight": "0.035Kg",
         "netWeight": "0.025Kg"
       }
@@ -1401,7 +1401,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 627",
+        "code": "627",
         "grossWeight": "0.063Kg",
         "netWeight": "0.053Kg"
       }
@@ -1418,7 +1418,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 628",
+        "code": "628",
         "grossWeight": "0.090Kg",
         "netWeight": "0.080Kg"
       }
@@ -1447,7 +1447,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 629",
+        "code": "629",
         "grossWeight": "0.012Kg",
         "netWeight": "0.002Kg"
       }
@@ -1476,7 +1476,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1060",
+        "code": "1060",
         "grossWeight": "0.028Kg",
         "netWeight": "0.018Kg"
       }
@@ -1493,7 +1493,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1352",
+        "code": "1352",
         "grossWeight": "0.017Kg",
         "netWeight": "0.007Kg"
       }
@@ -1686,7 +1686,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8123",
+        "code": "8123",
         "grossWeight": "1.910Kg",
         "netWeight": "1.900Kg"
       }
@@ -1790,7 +1790,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 596",
+        "code": "596",
         "grossWeight": "0.191Kg",
         "netWeight": "0.181Kg"
       }
@@ -1810,7 +1810,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 632",
+        "code": "632",
         "grossWeight": "0.083Kg",
         "netWeight": "0.073Kg"
       }
@@ -1830,7 +1830,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 733",
+        "code": "733",
         "grossWeight": "0.091Kg",
         "netWeight": "0.081Kg"
       }
@@ -1847,7 +1847,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 734",
+        "code": "734",
         "grossWeight": "0.142Kg",
         "netWeight": "0.132Kg"
       }
@@ -1867,7 +1867,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 761",
+        "code": "761",
         "grossWeight": "1.150Kg",
         "netWeight": "1.140Kg"
       }
@@ -1884,7 +1884,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1238",
+        "code": "1238",
         "grossWeight": "0.220Kg",
         "netWeight": "0.210Kg"
       }
@@ -2078,7 +2078,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 631",
+        "code": "631",
         "grossWeight": "5.450Kg",
         "netWeight": "5.440Kg"
       }
@@ -2212,7 +2212,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4386",
+        "code": "4386",
         "grossWeight": "0.170Kg",
         "netWeight": "0.160Kg"
       }
@@ -2337,7 +2337,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 372",
+        "code": "372",
         "grossWeight": "3.450Kg",
         "netWeight": "3.440Kg"
       }
@@ -2370,7 +2370,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 373",
+        "code": "373",
         "grossWeight": "3.570Kg",
         "netWeight": "3.560Kg"
       }
@@ -2403,7 +2403,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 374",
+        "code": "374",
         "grossWeight": "3.570Kg",
         "netWeight": "3.560Kg"
       }
@@ -2436,7 +2436,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 375",
+        "code": "375",
         "grossWeight": "3.565Kg",
         "netWeight": "3.555Kg"
       }
@@ -2510,7 +2510,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 377",
+        "code": "377",
         "grossWeight": "1.525Kg",
         "netWeight": "1.515Kg"
       }
@@ -2543,7 +2543,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1629",
+        "code": "1629",
         "grossWeight": "2.620Kg",
         "netWeight": "2.610Kg"
       }
@@ -2572,7 +2572,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5485",
+        "code": "5485",
         "grossWeight": "3.570Kg",
         "netWeight": "3.560Kg"
       }
@@ -2601,7 +2601,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1358",
+        "code": "1358",
         "grossWeight": "0.140Kg",
         "netWeight": "0.130Kg"
       }
@@ -2635,7 +2635,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1359",
+        "code": "1359",
         "grossWeight": "0.150Kg",
         "netWeight": "0.140Kg"
       }
@@ -2670,7 +2670,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1589",
+        "code": "1589",
         "grossWeight": "0.170Kg",
         "netWeight": "0.160Kg"
       }
@@ -2704,7 +2704,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1934",
+        "code": "1934",
         "grossWeight": "0.165Kg",
         "netWeight": "0.155Kg"
       }
@@ -2738,7 +2738,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 71",
+        "code": "71",
         "grossWeight": "0.145Kg",
         "netWeight": "0.135Kg"
       }
@@ -2772,7 +2772,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4980",
+        "code": "4980",
         "grossWeight": "0.165Kg",
         "netWeight": "0.155Kg"
       }
@@ -2805,7 +2805,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5660",
+        "code": "5660",
         "grossWeight": "0.165Kg",
         "netWeight": "0.155Kg"
       }
@@ -2839,7 +2839,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1385",
+        "code": "1385",
         "grossWeight": "0.180Kg",
         "netWeight": "0.170Kg"
       }
@@ -2868,7 +2868,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 387",
+        "code": "387",
         "grossWeight": "0.115Kg",
         "netWeight": "0.105Kg"
       }
@@ -2902,7 +2902,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3960",
+        "code": "3960",
         "grossWeight": "0.190Kg",
         "netWeight": "0.180Kg"
       }
@@ -2931,7 +2931,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1356",
+        "code": "1356",
         "grossWeight": "0.180Kg",
         "netWeight": "0.170Kg"
       }
@@ -2965,7 +2965,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1610",
+        "code": "1610",
         "grossWeight": "0.405Kg",
         "netWeight": "0.395Kg"
       }
@@ -2999,7 +2999,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1326",
+        "code": "1326",
         "grossWeight": "0.165Kg",
         "netWeight": "0.155Kg"
       }
@@ -3033,7 +3033,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1327",
+        "code": "1327",
         "grossWeight": "0.185Kg",
         "netWeight": "0.175Kg"
       }
@@ -3066,7 +3066,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1630",
+        "code": "1630",
         "grossWeight": "0.195Kg",
         "netWeight": "0.185Kg"
       }
@@ -3099,7 +3099,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1631",
+        "code": "1631",
         "grossWeight": "0.185Kg",
         "netWeight": "0.175Kg"
       }
@@ -3132,7 +3132,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1674",
+        "code": "1674",
         "grossWeight": "0.255Kg",
         "netWeight": "0.245Kg"
       }
@@ -3166,7 +3166,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3986",
+        "code": "3986",
         "grossWeight": "0.210Kg",
         "netWeight": "0.200Kg"
       }
@@ -3195,7 +3195,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1357",
+        "code": "1357",
         "grossWeight": "0.150Kg",
         "netWeight": "0.140Kg"
       }
@@ -3229,7 +3229,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 376",
+        "code": "376",
         "grossWeight": "3.355Kg",
         "netWeight": "3.345Kg"
       }
@@ -3258,7 +3258,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 388",
+        "code": "388",
         "grossWeight": "0.120Kg",
         "netWeight": "0.110Kg"
       }
@@ -3292,7 +3292,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 389",
+        "code": "389",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
@@ -3326,7 +3326,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 390",
+        "code": "390",
         "grossWeight": "0.140Kg",
         "netWeight": "0.130Kg"
       }
@@ -3360,7 +3360,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5765",
+        "code": "5765",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
@@ -3394,7 +3394,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5591",
+        "code": "5591",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
@@ -3427,7 +3427,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5766",
+        "code": "5766",
         "grossWeight": "0.130Kg",
         "netWeight": "0.120Kg"
       }
@@ -3461,7 +3461,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5768",
+        "code": "5768",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
@@ -3494,7 +3494,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6671",
+        "code": "6671",
         "grossWeight": "0.305Kg",
         "netWeight": "0.300Kg"
       }
@@ -3732,7 +3732,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 354",
+        "code": "354",
         "grossWeight": "0.025Kg",
         "netWeight": "0.015Kg"
       }
@@ -3787,7 +3787,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1428",
+        "code": "1428",
         "grossWeight": "0.024Kg",
         "netWeight": "0.014Kg"
       }
@@ -3940,7 +3940,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 347",
+        "code": "347",
         "grossWeight": "0.059Kg",
         "netWeight": "0.049Kg"
       }
@@ -3995,7 +3995,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 353",
+        "code": "353",
         "grossWeight": "0.025Kg",
         "netWeight": "0.015Kg"
       }
@@ -4050,7 +4050,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1980",
+        "code": "1980",
         "grossWeight": "0.024Kg",
         "netWeight": "0.014Kg"
       }
@@ -4179,7 +4179,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1652",
+        "code": "1652",
         "grossWeight": "0.450Kg",
         "netWeight": "0.440Kg"
       }
@@ -4213,7 +4213,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1653",
+        "code": "1653",
         "grossWeight": "0.450Kg",
         "netWeight": "0.440Kg"
       }
@@ -4233,7 +4233,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 458",
+        "code": "458",
         "grossWeight": "1.880Kg",
         "netWeight": "1.870Kg"
       }
@@ -4267,7 +4267,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1580",
+        "code": "1580",
         "grossWeight": "0.510Kg",
         "netWeight": "0.500Kg"
       }
@@ -4287,7 +4287,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 364",
+        "code": "364",
         "grossWeight": "0.220Kg",
         "netWeight": "0.210Kg"
       }
@@ -4321,7 +4321,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2962",
+        "code": "2962",
         "grossWeight": "0.175Kg",
         "netWeight": "0.165Kg"
       }
@@ -4355,7 +4355,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2961",
+        "code": "2961",
         "grossWeight": "0.135Kg",
         "netWeight": "0.125Kg"
       }
@@ -4389,7 +4389,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3987",
+        "code": "3987",
         "grossWeight": "0.135Kg",
         "netWeight": "0.125Kg"
       }
@@ -4418,7 +4418,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3931",
+        "code": "3931",
         "grossWeight": "3.530Kg",
         "netWeight": "3.520Kg"
       }
@@ -4435,7 +4435,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4253",
+        "code": "4253",
         "grossWeight": "0.155Kg",
         "netWeight": "0.145Kg"
       }
@@ -4455,7 +4455,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4256",
+        "code": "4256",
         "grossWeight": "0.155Kg",
         "netWeight": "0.145Kg"
       }
@@ -4535,7 +4535,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6422",
+        "code": "6422",
         "grossWeight": "0.505Kg",
         "netWeight": "0.500Kg"
       }
@@ -4552,7 +4552,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 797",
+        "code": "797",
         "grossWeight": "0.365Kg",
         "netWeight": "0.355Kg"
       }
@@ -4581,7 +4581,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 821",
+        "code": "821",
         "grossWeight": "0.173Kg",
         "netWeight": "0.163Kg"
       }
@@ -4601,7 +4601,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 846",
+        "code": "846",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
@@ -4679,7 +4679,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1074",
+        "code": "1074",
         "grossWeight": "0.132Kg",
         "netWeight": "0.122Kg"
       }
@@ -4696,7 +4696,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1078",
+        "code": "1078",
         "grossWeight": "0.150Kg",
         "netWeight": "0.100Kg"
       }
@@ -4716,7 +4716,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1085",
+        "code": "1085",
         "grossWeight": "0.016Kg",
         "netWeight": "0.006Kg"
       }
@@ -4736,7 +4736,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1087",
+        "code": "1087",
         "grossWeight": "0.747Kg",
         "netWeight": "0.737Kg"
       }
@@ -4788,7 +4788,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1179",
+        "code": "1179",
         "grossWeight": "0.021Kg",
         "netWeight": "0.011Kg"
       }
@@ -4808,7 +4808,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1250",
+        "code": "1250",
         "grossWeight": "0.051Kg",
         "netWeight": "0.041Kg"
       }
@@ -4825,7 +4825,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1253",
+        "code": "1253",
         "grossWeight": "0.200Kg",
         "netWeight": "0.150Kg"
       }
@@ -4842,7 +4842,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1255",
+        "code": "1255",
         "grossWeight": "0.375Kg",
         "netWeight": "0.365Kg"
       }
@@ -4859,7 +4859,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1259",
+        "code": "1259",
         "grossWeight": "0.015Kg",
         "netWeight": "0.005Kg"
       }
@@ -4879,7 +4879,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1260",
+        "code": "1260",
         "grossWeight": "0.013Kg",
         "netWeight": "0.003Kg"
       }
@@ -4896,7 +4896,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1261",
+        "code": "1261",
         "grossWeight": "0.350Kg",
         "netWeight": "0.340Kg"
       }
@@ -4916,7 +4916,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1338",
+        "code": "1338",
         "grossWeight": "0.250Kg",
         "netWeight": "0.200Kg"
       }
@@ -4933,7 +4933,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1402",
+        "code": "1402",
         "grossWeight": "0.021Kg",
         "netWeight": "0.011Kg"
       }
@@ -4962,7 +4962,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1893",
+        "code": "1893",
         "grossWeight": "0.189Kg",
         "netWeight": "0.179Kg"
       }
@@ -4979,7 +4979,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1001",
+        "code": "1001",
         "grossWeight": "0.254Kg",
         "netWeight": "0.244Kg"
       }
@@ -4996,7 +4996,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1077",
+        "code": "1077",
         "grossWeight": "0.034Kg",
         "netWeight": "0.024Kg"
       }
@@ -5013,7 +5013,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1079",
+        "code": "1079",
         "grossWeight": "0.033Kg",
         "netWeight": "0.023Kg"
       }
@@ -5030,7 +5030,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1076",
+        "code": "1076",
         "grossWeight": "0.150Kg",
         "netWeight": "0.100Kg"
       }
@@ -5047,7 +5047,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2171",
+        "code": "2171",
         "grossWeight": "1.005Kg",
         "netWeight": "1.000Kg"
       }
@@ -5064,7 +5064,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2828",
+        "code": "2828",
         "grossWeight": "0.105Kg",
         "netWeight": "0.100Kg"
       }
@@ -5133,7 +5133,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 17",
+        "code": "17",
         "grossWeight": "32.260Kg",
         "netWeight": "20.000Kg"
       }
@@ -5162,7 +5162,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 18",
+        "code": "18",
         "grossWeight": "32.280Kg",
         "netWeight": "20.000Kg"
       }
@@ -5196,7 +5196,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 30",
+        "code": "30",
         "grossWeight": "83.100Kg",
         "netWeight": "50.000Kg"
       }
@@ -5230,7 +5230,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 31",
+        "code": "31",
         "grossWeight": "83.100Kg",
         "netWeight": "50.000Kg"
       }
@@ -5264,7 +5264,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 32",
+        "code": "32",
         "grossWeight": "83.100Kg",
         "netWeight": "50.000Kg"
       }
@@ -5298,7 +5298,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 33",
+        "code": "33",
         "grossWeight": "120.200Kg",
         "netWeight": "75.000Kg"
       }
@@ -5327,7 +5327,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 20",
+        "code": "20",
         "grossWeight": "14.270Kg",
         "netWeight": "4.000Kg"
       }
@@ -5347,7 +5347,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 21",
+        "code": "21",
         "grossWeight": "19.370Kg",
         "netWeight": "6.000Kg"
       }
@@ -5381,7 +5381,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 22",
+        "code": "22",
         "grossWeight": "30.795Kg",
         "netWeight": "10.000Kg"
       }
@@ -5401,7 +5401,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1",
+        "code": "1",
         "grossWeight": "6.405Kg",
         "netWeight": "4.000Kg"
       }
@@ -5421,7 +5421,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2",
+        "code": "2",
         "grossWeight": "9.260Kg",
         "netWeight": "6.000Kg"
       }
@@ -5441,7 +5441,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3",
+        "code": "3",
         "grossWeight": "14.480Kg",
         "netWeight": "8.000Kg"
       }
@@ -5461,7 +5461,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4",
+        "code": "4",
         "grossWeight": "16.300Kg",
         "netWeight": "12.000Kg"
       }
@@ -5609,7 +5609,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 19",
+        "code": "19",
         "grossWeight": "14.270Kg",
         "netWeight": "10.000Kg"
       }
@@ -5629,7 +5629,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 29",
+        "code": "29",
         "grossWeight": "14.450Kg",
         "netWeight": "10.000Kg"
       }
@@ -5658,7 +5658,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 23",
+        "code": "23",
         "grossWeight": "3.790Kg",
         "netWeight": "2.000Kg"
       }
@@ -5687,7 +5687,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 24",
+        "code": "24",
         "grossWeight": "1.635Kg",
         "netWeight": "0.900Kg"
       }
@@ -5716,7 +5716,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 25",
+        "code": "25",
         "grossWeight": "1.625Kg",
         "netWeight": "0.900Kg"
       }
@@ -5745,7 +5745,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 26",
+        "code": "26",
         "grossWeight": "1.695Kg",
         "netWeight": "0.900Kg"
       }
@@ -6020,7 +6020,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8369",
+        "code": "8369",
         "grossWeight": "7.500Kg",
         "netWeight": "6.000Kg"
       }
@@ -6037,7 +6037,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8370",
+        "code": "8370",
         "grossWeight": "14.000Kg",
         "netWeight": "10.000Kg"
       }
@@ -6054,7 +6054,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8371",
+        "code": "8371",
         "grossWeight": "58.000Kg",
         "netWeight": "50.000Kg"
       }
@@ -6139,7 +6139,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 721",
+        "code": "721",
         "grossWeight": "1.110Kg",
         "netWeight": "1.100Kg"
       }
@@ -6172,7 +6172,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 722",
+        "code": "722",
         "grossWeight": "1.360Kg",
         "netWeight": "1.350Kg"
       }
@@ -6205,7 +6205,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 723",
+        "code": "723",
         "grossWeight": "0.560Kg",
         "netWeight": "0.550Kg"
       }
@@ -6239,7 +6239,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2162",
+        "code": "2162",
         "grossWeight": "17.100Kg",
         "netWeight": "17.000Kg"
       }
@@ -6273,7 +6273,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2826",
+        "code": "2826",
         "grossWeight": "0.310Kg",
         "netWeight": "0.300Kg"
       }
@@ -6307,7 +6307,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5772",
+        "code": "5772",
         "grossWeight": "0.190Kg",
         "netWeight": "0.180Kg"
       }
@@ -6341,7 +6341,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5622",
+        "code": "5622",
         "grossWeight": "2.110Kg",
         "netWeight": "2.100Kg"
       }
@@ -6375,7 +6375,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7333",
+        "code": "7333",
         "grossWeight": "0.310Kg",
         "netWeight": "0.300Kg"
       }
@@ -6404,7 +6404,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7074",
+        "code": "7074",
         "grossWeight": "1.110Kg",
         "netWeight": "1.100Kg"
       }
@@ -6433,7 +6433,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7334",
+        "code": "7334",
         "grossWeight": "1.110Kg",
         "netWeight": "1.100Kg"
       }
@@ -6467,7 +6467,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7073",
+        "code": "7073",
         "grossWeight": "1.110Kg",
         "netWeight": "1.100Kg"
       }
@@ -6501,7 +6501,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1441",
+        "code": "1441",
         "grossWeight": "0.130Kg",
         "netWeight": "0.120Kg"
       }
@@ -6530,7 +6530,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2050",
+        "code": "2050",
         "grossWeight": "2.160Kg",
         "netWeight": "2.150Kg"
       }
@@ -6565,7 +6565,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2105",
+        "code": "2105",
         "grossWeight": "0.170Kg",
         "netWeight": "0.160Kg"
       }
@@ -6599,7 +6599,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3850",
+        "code": "3850",
         "grossWeight": "0.140Kg",
         "netWeight": "0.100Kg"
       }
@@ -6633,7 +6633,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5449",
+        "code": "5449",
         "grossWeight": "0.410Kg",
         "netWeight": "0.400Kg"
       }
@@ -6689,7 +6689,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 869",
+        "code": "869",
         "grossWeight": "1.160Kg",
         "netWeight": "1.150Kg"
       }
@@ -6723,7 +6723,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8335",
+        "code": "8335",
         "grossWeight": "0.360Kg",
         "netWeight": "0.350Kg"
       }
@@ -6740,7 +6740,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3496",
+        "code": "3496",
         "grossWeight": "0.972Kg",
         "netWeight": "0.962Kg"
       }
@@ -6757,7 +6757,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3495",
+        "code": "3495",
         "grossWeight": "0.295Kg",
         "netWeight": "0.285Kg"
       }
@@ -6774,7 +6774,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3494",
+        "code": "3494",
         "grossWeight": "0.160Kg",
         "netWeight": "0.150Kg"
       }
@@ -6791,7 +6791,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3489",
+        "code": "3489",
         "grossWeight": "0.810Kg",
         "netWeight": "0.800Kg"
       }
@@ -6808,7 +6808,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3491",
+        "code": "3491",
         "grossWeight": "0.057Kg",
         "netWeight": "0.047Kg"
       }
@@ -6825,7 +6825,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3490",
+        "code": "3490",
         "grossWeight": "0.047Kg",
         "netWeight": "0.037Kg"
       }
@@ -6842,7 +6842,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3492",
+        "code": "3492",
         "grossWeight": "0.045Kg",
         "netWeight": "0.035Kg"
       }
@@ -6859,7 +6859,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3493",
+        "code": "3493",
         "grossWeight": "0.105Kg",
         "netWeight": "0.095Kg"
       }
@@ -6876,7 +6876,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6459",
+        "code": "6459",
         "grossWeight": "0.481Kg",
         "netWeight": "0.471Kg"
       }
@@ -6893,7 +6893,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6460",
+        "code": "6460",
         "grossWeight": "0.111Kg",
         "netWeight": "0.101Kg"
       }
@@ -6910,7 +6910,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1968",
+        "code": "1968",
         "grossWeight": "0.060Kg",
         "netWeight": "0.050Kg"
       }
@@ -6965,7 +6965,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3485",
+        "code": "3485",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
@@ -7005,7 +7005,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 446",
+        "code": "446",
         "grossWeight": "0.720Kg",
         "netWeight": "0.710Kg"
       }
@@ -7022,7 +7022,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 447",
+        "code": "447",
         "grossWeight": "0.830Kg",
         "netWeight": "0.820Kg"
       }
@@ -7039,7 +7039,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 448",
+        "code": "448",
         "grossWeight": "0.545Kg",
         "netWeight": "0.535Kg"
       }
@@ -7072,7 +7072,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 585",
+        "code": "585",
         "grossWeight": "0.460Kg",
         "netWeight": "0.450Kg"
       }
@@ -7089,7 +7089,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 712",
+        "code": "712",
         "grossWeight": "1.320Kg",
         "netWeight": "1.310Kg"
       }
@@ -7106,7 +7106,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 713",
+        "code": "713",
         "grossWeight": "1.480Kg",
         "netWeight": "1.470Kg"
       }
@@ -7139,7 +7139,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 758",
+        "code": "758",
         "grossWeight": "0.410Kg",
         "netWeight": "0.400Kg"
       }
@@ -7172,7 +7172,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1891",
+        "code": "1891",
         "grossWeight": "0.585Kg",
         "netWeight": "0.575Kg"
       }
@@ -7201,7 +7201,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1971",
+        "code": "1971",
         "grossWeight": "0.023Kg",
         "netWeight": "0.013Kg"
       }
@@ -7221,7 +7221,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1982",
+        "code": "1982",
         "grossWeight": "0.120Kg",
         "netWeight": "0.110Kg"
       }
@@ -7238,7 +7238,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2734",
+        "code": "2734",
         "grossWeight": "6.400Kg",
         "netWeight": "6.300Kg"
       }
@@ -7255,7 +7255,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2735",
+        "code": "2735",
         "grossWeight": "10.800Kg",
         "netWeight": "4.500Kg"
       }
@@ -7272,7 +7272,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5761",
+        "code": "5761",
         "grossWeight": "15.100Kg",
         "netWeight": "6.800Kg"
       }
@@ -7893,7 +7893,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1264",
+        "code": "1264",
         "grossWeight": "1.520Kg",
         "netWeight": "1.510Kg"
       }
@@ -7922,7 +7922,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1266",
+        "code": "1266",
         "grossWeight": "0.370Kg",
         "netWeight": "0.360Kg"
       }
@@ -8077,7 +8077,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 248",
+        "code": "248",
         "grossWeight": "1.270Kg",
         "netWeight": "1.260Kg"
       }
@@ -8342,7 +8342,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2127",
+        "code": "2127",
         "grossWeight": "1.870Kg",
         "netWeight": "1.860Kg"
       }
@@ -8359,7 +8359,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1265",
+        "code": "1265",
         "grossWeight": "0.030Kg",
         "netWeight": "0.020Kg"
       }
@@ -8392,7 +8392,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3095",
+        "code": "3095",
         "grossWeight": "0.510Kg",
         "netWeight": "0.500Kg"
       }
@@ -8444,7 +8444,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6427",
+        "code": "6427",
         "grossWeight": "2.040Kg",
         "netWeight": "2.030Kg"
       }
@@ -10702,7 +10702,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2772",
+        "code": "2772",
         "grossWeight": "0.350Kg",
         "netWeight": "0.340Kg"
       }
@@ -10775,7 +10775,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6739",
+        "code": "6739",
         "grossWeight": "0.410Kg",
         "netWeight": "0.400Kg"
       }
@@ -10850,7 +10850,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3904",
+        "code": "3904",
         "grossWeight": "0.310Kg",
         "netWeight": "0.300Kg"
       }
@@ -10902,7 +10902,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2098",
+        "code": "2098",
         "grossWeight": "1.010Kg",
         "netWeight": "1.000Kg"
       }
@@ -10936,7 +10936,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6536",
+        "code": "6536",
         "grossWeight": "10.010Kg",
         "netWeight": "10.000Kg"
       }
@@ -10953,7 +10953,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3906",
+        "code": "3906",
         "grossWeight": "1.010Kg",
         "netWeight": "1.000Kg"
       }
@@ -10970,7 +10970,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3907",
+        "code": "3907",
         "grossWeight": "1.130Kg",
         "netWeight": "1.120Kg"
       }
@@ -11010,7 +11010,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3903",
+        "code": "3903",
         "grossWeight": "0.510Kg",
         "netWeight": "0.500Kg"
       }
@@ -11030,7 +11030,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2156",
+        "code": "2156",
         "grossWeight": "98.510Kg",
         "netWeight": "98.500Kg"
       }
@@ -11064,7 +11064,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4233",
+        "code": "4233",
         "grossWeight": "30.010Kg",
         "netWeight": "30.000Kg"
       }
@@ -11098,7 +11098,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1409",
+        "code": "1409",
         "grossWeight": "142.200Kg",
         "netWeight": "142.000Kg"
       }
@@ -11118,7 +11118,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2058",
+        "code": "2058",
         "grossWeight": "85.710Kg",
         "netWeight": "85.700Kg"
       }
@@ -11152,7 +11152,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6960",
+        "code": "6960",
         "grossWeight": "30.010Kg",
         "netWeight": "30.000Kg"
       }
@@ -11243,7 +11243,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8189",
+        "code": "8189",
         "grossWeight": "0.800Kg",
         "netWeight": "0.800Kg"
       }
@@ -11277,7 +11277,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7748",
+        "code": "7748",
         "grossWeight": "87.700Kg",
         "netWeight": "85.700Kg"
       }
@@ -11311,7 +11311,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 148",
+        "code": "148",
         "grossWeight": "0.610Kg",
         "netWeight": "0.600Kg"
       }
@@ -11344,7 +11344,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 150",
+        "code": "150",
         "grossWeight": "0.830Kg",
         "netWeight": "0.820Kg"
       }
@@ -11361,7 +11361,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 155",
+        "code": "155",
         "grossWeight": "0.130Kg",
         "netWeight": "0.120Kg"
       }
@@ -11390,7 +11390,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 157",
+        "code": "157",
         "grossWeight": "1.310Kg",
         "netWeight": "1.300Kg"
       }
@@ -11419,7 +11419,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 159",
+        "code": "159",
         "grossWeight": "1.590Kg",
         "netWeight": "1.580Kg"
       }
@@ -11529,7 +11529,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 168",
+        "code": "168",
         "grossWeight": "1.000Kg",
         "netWeight": "0.990Kg"
       }
@@ -11598,7 +11598,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 183",
+        "code": "183",
         "grossWeight": "1.320Kg",
         "netWeight": "1.310Kg"
       }
@@ -11627,7 +11627,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 185",
+        "code": "185",
         "grossWeight": "1.900Kg",
         "netWeight": "1.890Kg"
       }
@@ -11777,7 +11777,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1282",
+        "code": "1282",
         "grossWeight": "0.480Kg",
         "netWeight": "0.470Kg"
       }
@@ -11926,7 +11926,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1925",
+        "code": "1925",
         "grossWeight": "1.310Kg",
         "netWeight": "1.300Kg"
       }
@@ -11960,7 +11960,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1927",
+        "code": "1927",
         "grossWeight": "1.940Kg",
         "netWeight": "1.930Kg"
       }
@@ -12114,7 +12114,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 87",
+        "code": "87",
         "grossWeight": "1.310Kg",
         "netWeight": "1.300Kg"
       }
@@ -12143,7 +12143,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5239",
+        "code": "5239",
         "grossWeight": "1.660Kg",
         "netWeight": "1.650Kg"
       }
@@ -12207,7 +12207,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5005",
+        "code": "5005",
         "grossWeight": "0.990Kg",
         "netWeight": "0.980Kg"
       }
@@ -12241,7 +12241,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6656",
+        "code": "6656",
         "grossWeight": "1.010Kg",
         "netWeight": "1.000Kg"
       }
@@ -12275,7 +12275,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6657",
+        "code": "6657",
         "grossWeight": "1.410Kg",
         "netWeight": "1.400Kg"
       }
@@ -12335,7 +12335,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 149",
+        "code": "149",
         "grossWeight": "0.190Kg",
         "netWeight": "0.180Kg"
       }
@@ -12369,7 +12369,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 151",
+        "code": "151",
         "grossWeight": "0.260Kg",
         "netWeight": "0.250Kg"
       }
@@ -12386,7 +12386,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 156",
+        "code": "156",
         "grossWeight": "0.070Kg",
         "netWeight": "0.060Kg"
       }
@@ -12420,7 +12420,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 158",
+        "code": "158",
         "grossWeight": "0.530Kg",
         "netWeight": "0.520Kg"
       }
@@ -12454,7 +12454,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 160",
+        "code": "160",
         "grossWeight": "0.640Kg",
         "netWeight": "0.630Kg"
       }
@@ -12488,7 +12488,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 161",
+        "code": "161",
         "grossWeight": "0.200Kg",
         "netWeight": "0.190Kg"
       }
@@ -12545,7 +12545,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4852",
+        "code": "4852",
         "grossWeight": "0.190Kg",
         "netWeight": "0.180Kg"
       }
@@ -12562,7 +12562,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 681",
+        "code": "681",
         "grossWeight": "24.960Kg",
         "netWeight": "24.950Kg"
       }
@@ -12579,7 +12579,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 683",
+        "code": "683",
         "grossWeight": "78.410Kg",
         "netWeight": "78.400Kg"
       }
@@ -12596,7 +12596,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 946",
+        "code": "946",
         "grossWeight": "117.660Kg",
         "netWeight": "117.650Kg"
       }
@@ -12613,7 +12613,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1184",
+        "code": "1184",
         "grossWeight": "112.000Kg",
         "netWeight": "111.000Kg"
       }
@@ -12630,7 +12630,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1213",
+        "code": "1213",
         "grossWeight": "104.960Kg",
         "netWeight": "104.950Kg"
       }
@@ -12647,7 +12647,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2163",
+        "code": "2163",
         "grossWeight": "65.810Kg",
         "netWeight": "65.800Kg"
       }
@@ -12664,7 +12664,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 682",
+        "code": "682",
         "grossWeight": "53.160Kg",
         "netWeight": "53.150Kg"
       }
@@ -12681,7 +12681,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1692",
+        "code": "1692",
         "grossWeight": "150.500Kg",
         "netWeight": "150.500Kg"
       }
@@ -12698,7 +12698,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1873",
+        "code": "1873",
         "grossWeight": "70.010Kg",
         "netWeight": "70.000Kg"
       }
@@ -12715,7 +12715,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4040",
+        "code": "4040",
         "grossWeight": "40.390Kg",
         "netWeight": "40.380Kg"
       }
@@ -12732,7 +12732,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2051",
+        "code": "2051",
         "grossWeight": "34.060Kg",
         "netWeight": "34.050Kg"
       }
@@ -12749,7 +12749,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4276",
+        "code": "4276",
         "grossWeight": "20.800Kg",
         "netWeight": "20.000Kg"
       }
@@ -12766,7 +12766,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4347",
+        "code": "4347",
         "grossWeight": "34.060Kg",
         "netWeight": "34.050Kg"
       }
@@ -12783,7 +12783,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5250",
+        "code": "5250",
         "grossWeight": "29.280Kg",
         "netWeight": "29.270Kg"
       }
@@ -12800,7 +12800,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4887",
+        "code": "4887",
         "grossWeight": "280.010Kg",
         "netWeight": "280.000Kg"
       }
@@ -12928,7 +12928,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 724",
+        "code": "724",
         "grossWeight": "0.089Kg",
         "netWeight": "0.079Kg"
       }
@@ -12945,7 +12945,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1142",
+        "code": "1142",
         "grossWeight": "0.085Kg",
         "netWeight": "0.075Kg"
       }
@@ -13019,7 +13019,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1284",
+        "code": "1284",
         "grossWeight": "1.970Kg",
         "netWeight": "1.960Kg"
       }
@@ -13053,7 +13053,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1741",
+        "code": "1741",
         "grossWeight": "1.740Kg",
         "netWeight": "1.730Kg"
       }
@@ -13070,7 +13070,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1783",
+        "code": "1783",
         "grossWeight": "0.023Kg",
         "netWeight": "0.013Kg"
       }
@@ -13104,7 +13104,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1875",
+        "code": "1875",
         "grossWeight": "15.595Kg",
         "netWeight": "15.585Kg"
       }
@@ -13121,7 +13121,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1283",
+        "code": "1283",
         "grossWeight": "5.040Kg",
         "netWeight": "5.030Kg"
       }
@@ -13138,7 +13138,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1979",
+        "code": "1979",
         "grossWeight": "2.870Kg",
         "netWeight": "2.860Kg"
       }
@@ -13207,7 +13207,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2081",
+        "code": "2081",
         "grossWeight": "0.800Kg",
         "netWeight": "0.790Kg"
       }
@@ -13224,7 +13224,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2122",
+        "code": "2122",
         "grossWeight": "0.190Kg",
         "netWeight": "0.180Kg"
       }
@@ -13241,7 +13241,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2732",
+        "code": "2732",
         "grossWeight": "1.050Kg",
         "netWeight": "1.000Kg"
       }
@@ -13258,7 +13258,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6196",
+        "code": "6196",
         "grossWeight": "1.010Kg",
         "netWeight": "1.000Kg"
       }
@@ -13275,7 +13275,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6197",
+        "code": "6197",
         "grossWeight": "5.010Kg",
         "netWeight": "5.000Kg"
       }
@@ -13292,7 +13292,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1514",
+        "code": "1514",
         "grossWeight": "50.005Kg",
         "netWeight": "50.000Kg"
       }
@@ -13326,7 +13326,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 6581",
+        "code": "6581",
         "grossWeight": "120.050Kg",
         "netWeight": "120.000Kg"
       }
@@ -13343,7 +13343,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 4824",
+        "code": "4824",
         "grossWeight": "1.505Kg",
         "netWeight": "1.500Kg"
       }
@@ -13377,7 +13377,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1598",
+        "code": "1598",
         "grossWeight": "1.260Kg",
         "netWeight": "1.250Kg"
       }
@@ -13411,7 +13411,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1599",
+        "code": "1599",
         "grossWeight": "2.710Kg",
         "netWeight": "2.700Kg"
       }
@@ -13445,7 +13445,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1600",
+        "code": "1600",
         "grossWeight": "1.260Kg",
         "netWeight": "1.250Kg"
       }
@@ -13479,7 +13479,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1601",
+        "code": "1601",
         "grossWeight": "2.710Kg",
         "netWeight": "2.700Kg"
       }
@@ -13513,7 +13513,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1602",
+        "code": "1602",
         "grossWeight": "1.110Kg",
         "netWeight": "1.100Kg"
       }
@@ -13547,7 +13547,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1743",
+        "code": "1743",
         "grossWeight": "6.960Kg",
         "netWeight": "6.950Kg"
       }
@@ -13581,7 +13581,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1744",
+        "code": "1744",
         "grossWeight": "6.110Kg",
         "netWeight": "6.100Kg"
       }
@@ -13723,7 +13723,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2089",
+        "code": "2089",
         "grossWeight": "1.290Kg",
         "netWeight": "1.280Kg"
       }
@@ -13939,7 +13939,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1706",
+        "code": "1706",
         "grossWeight": "0.540Kg",
         "netWeight": "0.530Kg"
       }
@@ -13997,7 +13997,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3731",
+        "code": "3731",
         "grossWeight": "9.410Kg",
         "netWeight": "9.400Kg"
       }
@@ -14026,7 +14026,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8165",
+        "code": "8165",
         "grossWeight": "0.140Kg",
         "netWeight": "0.123Kg"
       }
@@ -14060,7 +14060,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8154",
+        "code": "8154",
         "grossWeight": "0.650Kg",
         "netWeight": "0.640Kg"
       }
@@ -14740,7 +14740,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7283",
+        "code": "7283",
         "grossWeight": "1.050Kg",
         "netWeight": "1.000Kg"
       }
@@ -14848,7 +14848,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7625",
+        "code": "7625",
         "grossWeight": "0.015Kg",
         "netWeight": "0.005Kg"
       }
@@ -16038,7 +16038,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7808",
+        "code": "7808",
         "grossWeight": "0.810Kg",
         "netWeight": "0.800Kg"
       }
@@ -16070,7 +16070,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8234",
+        "code": "8234",
         "grossWeight": "1.510Kg",
         "netWeight": "1.500Kg"
       }
@@ -16106,7 +16106,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8361",
+        "code": "8361",
         "grossWeight": "0.810Kg",
         "netWeight": "0.800Kg"
       }
@@ -16123,7 +16123,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 464",
+        "code": "464",
         "grossWeight": "0.021Kg",
         "netWeight": "0.011Kg"
       }
@@ -16175,7 +16175,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 466",
+        "code": "466",
         "grossWeight": "0.080Kg",
         "netWeight": "0.070Kg"
       }
@@ -16192,7 +16192,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 740",
+        "code": "740",
         "grossWeight": "0.550Kg",
         "netWeight": "0.540Kg"
       }
@@ -16209,7 +16209,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 845",
+        "code": "845",
         "grossWeight": "0.045Kg",
         "netWeight": "0.035Kg"
       }
@@ -16275,7 +16275,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2053",
+        "code": "2053",
         "grossWeight": "1.240Kg",
         "netWeight": "1.230Kg"
       }
@@ -16295,7 +16295,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 2054",
+        "code": "2054",
         "grossWeight": "1.240Kg",
         "netWeight": "1.230Kg"
       }
@@ -16315,7 +16315,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3779",
+        "code": "3779",
         "grossWeight": "1.240Kg",
         "netWeight": "1.230Kg"
       }
@@ -16335,7 +16335,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3519",
+        "code": "3519",
         "grossWeight": "0.670Kg",
         "netWeight": "0.660Kg"
       }
@@ -16352,7 +16352,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 732",
+        "code": "732",
         "grossWeight": "0.190Kg",
         "netWeight": "0.180Kg"
       }
@@ -16523,7 +16523,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5978",
+        "code": "5978",
         "grossWeight": "0.610Kg",
         "netWeight": "0.600Kg"
       }
@@ -16540,7 +16540,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 462",
+        "code": "462",
         "grossWeight": "25.010Kg",
         "netWeight": "25.000Kg"
       }
@@ -16557,7 +16557,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 463",
+        "code": "463",
         "grossWeight": "20.610Kg",
         "netWeight": "20.600Kg"
       }
@@ -16574,7 +16574,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 726",
+        "code": "726",
         "grossWeight": "4.480Kg",
         "netWeight": "4.470Kg"
       }
@@ -16649,7 +16649,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 399",
+        "code": "399",
         "grossWeight": "0.132Kg",
         "netWeight": "0.122Kg"
       }
@@ -16666,7 +16666,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 400",
+        "code": "400",
         "grossWeight": "0.052Kg",
         "netWeight": "0.050Kg"
       }
@@ -16683,7 +16683,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 401",
+        "code": "401",
         "grossWeight": "0.014Kg",
         "netWeight": "0.004Kg"
       }
@@ -16700,7 +16700,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 402",
+        "code": "402",
         "grossWeight": "0.013Kg",
         "netWeight": "0.003Kg"
       }
@@ -16717,7 +16717,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 403",
+        "code": "403",
         "grossWeight": "0.013Kg",
         "netWeight": "0.003Kg"
       }
@@ -16734,7 +16734,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 404",
+        "code": "404",
         "grossWeight": "0.025Kg",
         "netWeight": "0.015Kg"
       }
@@ -16751,7 +16751,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 405",
+        "code": "405",
         "grossWeight": "0.062Kg",
         "netWeight": "0.012Kg"
       }
@@ -16768,7 +16768,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1427",
+        "code": "1427",
         "grossWeight": "0.039Kg",
         "netWeight": "0.029Kg"
       }
@@ -16785,7 +16785,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1562",
+        "code": "1562",
         "grossWeight": "1.010Kg",
         "netWeight": "1.000Kg"
       }
@@ -16802,7 +16802,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 1563",
+        "code": "1563",
         "grossWeight": "0.026Kg",
         "netWeight": "0.016Kg"
       }
@@ -16980,7 +16980,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 3512",
+        "code": "3512",
         "grossWeight": "0.040Kg",
         "netWeight": "0.030Kg"
       }
@@ -18515,7 +18515,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 569",
+        "code": "569",
         "grossWeight": "0.049Kg",
         "netWeight": "0.039Kg"
       }
@@ -18532,7 +18532,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 570",
+        "code": "570",
         "grossWeight": "0.049Kg",
         "netWeight": "0.039Kg"
       }
@@ -18549,7 +18549,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 571",
+        "code": "571",
         "grossWeight": "0.049Kg",
         "netWeight": "0.039Kg"
       }
@@ -18566,7 +18566,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 572",
+        "code": "572",
         "grossWeight": "0.049Kg",
         "netWeight": "0.039Kg"
       }
@@ -18583,7 +18583,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 573",
+        "code": "573",
         "grossWeight": "0.029Kg",
         "netWeight": "0.019Kg"
       }
@@ -18692,7 +18692,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 574",
+        "code": "574",
         "grossWeight": "0.029Kg",
         "netWeight": "0.019Kg"
       }
@@ -18709,7 +18709,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 575",
+        "code": "575",
         "grossWeight": "0.029Kg",
         "netWeight": "0.019Kg"
       }
@@ -18726,7 +18726,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 576",
+        "code": "576",
         "grossWeight": "0.062Kg",
         "netWeight": "0.052Kg"
       }
@@ -18743,7 +18743,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 577",
+        "code": "577",
         "grossWeight": "0.049Kg",
         "netWeight": "0.039Kg"
       }
@@ -18760,7 +18760,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 578",
+        "code": "578",
         "grossWeight": "0.062Kg",
         "netWeight": "0.052Kg"
       }
@@ -18777,7 +18777,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 579",
+        "code": "579",
         "grossWeight": "0.253Kg",
         "netWeight": "0.243Kg"
       }
@@ -18863,7 +18863,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7683",
+        "code": "7683",
         "grossWeight": "0.062Kg",
         "netWeight": "0.052Kg"
       }
@@ -19064,7 +19064,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5512",
+        "code": "5512",
         "grossWeight": "0.050Kg",
         "netWeight": "0.040Kg"
       }
@@ -19081,7 +19081,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5514",
+        "code": "5514",
         "grossWeight": "0.050Kg",
         "netWeight": "0.040Kg"
       }
@@ -19098,7 +19098,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5510",
+        "code": "5510",
         "grossWeight": "0.050Kg",
         "netWeight": "0.040Kg"
       }
@@ -19115,7 +19115,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5511",
+        "code": "5511",
         "grossWeight": "0.050Kg",
         "netWeight": "0.040Kg"
       }
@@ -19132,7 +19132,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5515",
+        "code": "5515",
         "grossWeight": "0.050Kg",
         "netWeight": "0.040Kg"
       }
@@ -19149,7 +19149,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 5522",
+        "code": "5522",
         "grossWeight": "0.050Kg",
         "netWeight": "0.040Kg"
       }
@@ -19166,7 +19166,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8381",
+        "code": "8381",
         "grossWeight": "0.049Kg",
         "netWeight": "0.039Kg"
       }
@@ -19183,7 +19183,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8382",
+        "code": "8382",
         "grossWeight": "0.049Kg",
         "netWeight": "0.039Kg"
       }
@@ -19200,7 +19200,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 8320",
+        "code": "8320",
         "grossWeight": "0.030Kg",
         "netWeight": "0.020Kg"
       }
@@ -19217,7 +19217,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7944",
+        "code": "7944",
         "grossWeight": "0.210Kg",
         "netWeight": "0.200Kg"
       }
@@ -19234,7 +19234,7 @@
     "variations": [
       {
         "description": "Única",
-        "code": "Código: 7945",
+        "code": "7945",
         "grossWeight": "0.110Kg",
         "netWeight": "0.100Kg"
       }
